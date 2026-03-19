@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "category": "tips",
+    "text": "Claude Codeで一番最初にやるべきことは、CLAUDE.mdを書くこと。プロジェクトの構成、使用技術、コマンド一覧を書いておくだけで、AIの理解度が段違いになる。 #ClaudeCode #AI開発"
+  },
+  {
+    "id": 2,
+    "category": "tips",
+    "text": "Claude Codeの/compactコマンド、地味に神。コンテキストが長くなってきたら使うと、会話を要約して圧縮してくれる。トークン節約にめちゃ効く。 #ClaudeCode"
+  },
+  {
+    "id": 3,
+    "category": "tips",
+    "text": "Claude Codeでファイル編集するとき、「このファイルを読んでから修正して」と明示的に言うと精度が上がる。読まずに推測で書き換えるとバグの原因になる。 #ClaudeCode #開発Tips"
+  },
+  {
+    "id": 4,
+    "category": "tips",
+    "text": "Claude Codeのプロンプト、日本語でOK。英語の方が精度高いかと思ったけど、日本語でも十分正確に動く。母国語で指示出せるのはストレスフリー。 #ClaudeCode"
+  },
+  {
+    "id": 5,
+    "category": "tips",
+    "text": "Claude Codeでgit commitするとき「変更内容を確認してコミットして」と言うだけでdiff見てメッセージも考えてくれる。手動でgit addする時代は終わった。 #ClaudeCode #Git"
+  },
+  {
+    "id": 6,
+    "category": "tips",
+    "text": "CLAUDE.mdにパスエイリアスを書いておくの超大事。「@/* → src/*」みたいに書くと、Claude Codeがインポートパスを正しく解決してくれる。 #ClaudeCode #TypeScript"
+  },
+  {
+    "id": 7,
+    "category": "tips",
+    "text": "Claude Codeで新機能追加するときのコツ：いきなり「作って」じゃなくて「まず設計を提案して」から始める。手戻りが激減する。 #ClaudeCode #開発Tips"
+  },
+  {
+    "id": 8,
+    "category": "tips",
+    "text": "Claude Code使ってて気づいたけど、エラーメッセージをそのまま貼り付けるだけで8割解決する。自分で原因を推測して説明するより、生のエラーを渡す方が早い。 #ClaudeCode"
+  },
+  {
+    "id": 9,
+    "category": "tips",
+    "text": "Claude Codeでテストコード書かせるの最高。「この関数のユニットテストを書いて」で一瞬。自分で書くと30分かかるところが1分で終わる。 #ClaudeCode #テスト"
+  },
+  {
+    "id": 10,
+    "category": "tips",
+    "text": "Claude Codeの--resumeフラグ知ってる？前回の会話を再開できる。「あ、さっきの続きやりたい」ってとき超便利。 #ClaudeCode"
+  },
+  {
+    "id": 11,
+    "category": "tips",
+    "text": "Claude Codeにコードレビューさせるの、かなり実用的。「このPRの変更をレビューして」で、見落としがちなバグや改善点を指摘してくれる。 #ClaudeCode #コードレビュー"
+  },
+  {
+    "id": 12,
+    "category": "tips",
+    "text": "CLAUDE.mdに「このプロジェクトではNativeWindを使用」と書いておくだけで、スタイリングの提案が全部Tailwindクラスになる。コンテキスト設定大事。 #ClaudeCode #ReactNative"
+  },
+  {
+    "id": 13,
+    "category": "tips",
+    "text": "Claude Codeで複数ファイルを同時に編集したいとき、依存関係を明示すると順番通りにやってくれる。「まずtypes.tsを修正してから、それを使うcomponent.tsxを更新して」 #ClaudeCode"
+  },
+  {
+    "id": 14,
+    "category": "tips",
+    "text": "Claude Codeのglobパターン検索が地味に便利。「src/**/*.test.ts を全部見せて」みたいにプロジェクト内のファイルを素早く探索できる。 #ClaudeCode"
+  },
+  {
+    "id": 15,
+    "category": "tips",
+    "text": "Claude Codeで型エラーを直すとき、tsconfig.jsonの設定も一緒に渡すと解決が早い。strict modeの有無で回答が変わるから。 #ClaudeCode #TypeScript"
+  },
+  {
+    "id": 16,
+    "category": "tips",
+    "text": "Claude Codeに「このコードをリファクタリングして」と言うとき、具体的な方針を伝えると質が上がる。「関数を分割して」「型を厳密にして」など。 #ClaudeCode"
+  },
+  {
+    "id": 17,
+    "category": "tips",
+    "text": "Claude Code使うとき、ターミナルのフォントサイズ少し大きめにしておくと見やすい。コード差分の確認がめちゃ楽になる。地味だけど効果大。 #ClaudeCode"
+  },
+  {
+    "id": 18,
+    "category": "tips",
+    "text": "Claude Codeでデータベースのマイグレーションファイル作るの快適すぎる。テーブル構成を説明するだけでSQL書いてくれる。RLSポリシーまで。 #ClaudeCode #Supabase"
+  },
+  {
+    "id": 19,
+    "category": "tips",
+    "text": "Claude Codeで環境変数の設定ミスを見つけるの得意。「.envの設定が正しいか確認して」で、足りない変数や間違った値を指摘してくれる。 #ClaudeCode"
+  },
+  {
+    "id": 20,
+    "category": "tips",
+    "text": "Claude Codeにpackage.jsonのスクリプトを追加させるとき、既存のスクリプトとの整合性もチェックしてくれる。lint、typecheck、testの一括実行スクリプトとか。 #ClaudeCode"
+  },
+  {
+    "id": 21,
+    "category": "tips",
+    "text": "Claude Codeで新しいライブラリ導入するとき「このライブラリの使い方をサンプルコード付きで教えて」で実践的なコードが出てくる。ドキュメント読む時間が半減。 #ClaudeCode"
+  },
+  {
+    "id": 22,
+    "category": "tips",
+    "text": "Claude Codeでgit操作するとき、--no-verifyは使わない方がいい。pre-commitフックを飛ばすとlintエラーがそのままcommitされる。 #ClaudeCode #Git"
+  },
+  {
+    "id": 23,
+    "category": "tips",
+    "text": "Claude Codeのコンテキストウィンドウを意識するの大事。不要なファイルを読み込ませすぎると精度が落ちる。必要なファイルだけ読ませよう。 #ClaudeCode"
+  },
+  {
+    "id": 24,
+    "category": "tips",
+    "text": "Claude Codeで画面遷移の実装、ナビゲーション構成をCLAUDE.mdに書いておくと完璧。どのStackにどの画面があるか把握した上でコード書いてくれる。 #ClaudeCode #ReactNative"
+  },
+  {
+    "id": 25,
+    "category": "tips",
+    "text": "Claude Codeの出力を鵜呑みにしない。必ず動作確認する。AIが書いたコードでもバグはある。信頼しつつ検証するのがベストプラクティス。 #ClaudeCode #AI開発"
+  },
+  {
+    "id": 26,
+    "category": "tips",
+    "text": "Claude Codeでコンポーネントを作るとき「Propsの型も定義して」と付け加えるとTypeScript的に正しいコードになる。省略すると any になりがち。 #ClaudeCode #TypeScript"
+  },
+  {
+    "id": 27,
+    "category": "tips",
+    "text": "Claude CodeのPlan Mode、使ってる？大きな変更の前に「計画を立てて」と指示すると、実装ステップを整理してから作業してくれる。手戻り防止に最適。 #ClaudeCode"
+  },
+  {
+    "id": 28,
+    "category": "tips",
+    "text": "Claude Codeでエラーが出たら、スクショじゃなくテキストで貼る方がいい。CLIだからテキストの方が処理しやすい。当たり前だけど大事。 #ClaudeCode"
+  },
+  {
+    "id": 29,
+    "category": "tips",
+    "text": "Claude Codeに「このプロジェクトのディレクトリ構成を確認して」と最初に言うと、全体像を把握してから作業してくれる。初回セッションでは必須。 #ClaudeCode"
+  },
+  {
+    "id": 30,
+    "category": "tips",
+    "text": "Claude CodeでFirestoreのセキュリティルール書かせるの便利すぎ。「認証済みユーザーのみ自分のデータを読み書きできるルール書いて」で完璧なルールが出る。 #ClaudeCode #Firebase"
+  },
+  {
+    "id": 31,
+    "category": "tips",
+    "text": "Claude Codeで「この関数の処理を日本語でコメントつけて」と言うと、可読性が爆上がりするコメントを入れてくれる。チーム開発でも個人開発でも有用。 #ClaudeCode"
+  },
+  {
+    "id": 32,
+    "category": "tips",
+    "text": "Claude Codeのtips：指示は具体的に。「いい感じにして」より「レスポンシブ対応して、モバイルファーストで」の方が100倍いい結果が出る。 #ClaudeCode"
+  },
+  {
+    "id": 33,
+    "category": "tips",
+    "text": "Claude Codeでzustandのストア設計するとき、既存のストアの構造を見せてから「同じパターンで新しいストア作って」と言うと統一感のあるコードになる。 #ClaudeCode #Zustand"
+  },
+  {
+    "id": 34,
+    "category": "tips",
+    "text": "Claude Codeのセッション中に方針変更したくなったら、遠慮なく「やっぱりこっちの方針で」と言おう。AIは怒らない。最適解を一緒に探すパートナー。 #ClaudeCode"
+  },
+  {
+    "id": 35,
+    "category": "tips",
+    "text": "Claude Codeで正規表現を書かせるとめちゃ楽。「メールアドレスのバリデーション正規表現書いて」で、エッジケースも考慮したregexが出てくる。 #ClaudeCode"
+  },
+  {
+    "id": 36,
+    "category": "tips",
+    "text": "Claude CodeのMCP連携で外部ツールと繋げると世界が変わる。Supabaseと直接連携してDB操作とか、Figmaからデザイン取得とか。可能性無限大。 #ClaudeCode #MCP"
+  },
+  {
+    "id": 37,
+    "category": "tips",
+    "text": "Claude Codeでimport文の整理もやってくれる。「不要なimportを削除して、アルファベット順に並べ替えて」で一発。手動でやると地味に時間かかるやつ。 #ClaudeCode"
+  },
+  {
+    "id": 38,
+    "category": "tips",
+    "text": "Claude Codeで非同期処理書くとき「async/awaitでエラーハンドリングもつけて」と指示すると、try-catchにログ出力まで入れてくれる。丁寧。 #ClaudeCode #TypeScript"
+  },
+  {
+    "id": 39,
+    "category": "tips",
+    "text": "CLAUDE.mdにプロジェクトの命名規則を書いておくと吉。「コンポーネントはPascalCase、ファイル名はkebab-case」とか。一貫性が保たれる。 #ClaudeCode"
+  },
+  {
+    "id": 40,
+    "category": "tips",
+    "text": "Claude Codeで「このエラーの原因を3つの可能性で挙げて」と聞くと、効率的にデバッグできる。1つ目がダメでも2つ目、3つ目と試せる。 #ClaudeCode #デバッグ"
+  },
+  {
+    "id": 41,
+    "category": "tips",
+    "text": "Claude CodeでReact Queryのカスタムフック作るの最高に楽。「Firestoreからデータ取得するカスタムフック作って」でキャッシュ戦略含めて提案してくれる。 #ClaudeCode #ReactQuery"
+  },
+  {
+    "id": 42,
+    "category": "tips",
+    "text": "Claude Codeで作業前に「現在のブランチとステータスを確認して」と言う癖をつけよう。意図しないブランチで作業してた事故が防げる。 #ClaudeCode #Git"
+  },
+  {
+    "id": 43,
+    "category": "tips",
+    "text": "Claude Codeのレスポンスが長すぎると感じたら「簡潔に」と前置きするだけで出力量が減る。トークン節約にもなるし読みやすい。 #ClaudeCode"
+  },
+  {
+    "id": 44,
+    "category": "tips",
+    "text": "Claude Codeでアプリのパフォーマンス改善するとき「React.memoが必要な箇所を特定して」と聞くと、再レンダリングの無駄を見つけてくれる。 #ClaudeCode #ReactNative"
+  },
+  {
+    "id": 45,
+    "category": "tips",
+    "text": "Claude Codeにコード書かせた後は必ずlintとtypecheckを走らせよう。npm run lint && npm run typecheckでCI前に問題を潰せる。 #ClaudeCode #TypeScript"
+  },
+  {
+    "id": 46,
+    "category": "tips",
+    "text": "Claude Codeで「この画面のUIをFlatListに変更して、無限スクロール対応して」みたいな複合指示もいける。段階的に実装してくれる。 #ClaudeCode #ReactNative"
+  },
+  {
+    "id": 47,
+    "category": "tips",
+    "text": "Claude Codeの使い方で差がつくポイント：コンテキストの渡し方。関連ファイルを適切に読ませるだけで、出力の質が劇的に変わる。 #ClaudeCode"
+  },
+  {
+    "id": 48,
+    "category": "tips",
+    "text": "Claude Codeで.envファイルを扱うとき注意。.gitignoreに入ってるか確認してからじゃないと、うっかりcommitされる可能性ある。AIに任せきりにしない。 #ClaudeCode #セキュリティ"
+  },
+  {
+    "id": 49,
+    "category": "tips",
+    "text": "Claude Codeでバグ修正するとき「修正前と修正後の差分を説明して」と頼むと、何がどう変わったか明確になる。学びにもなる。 #ClaudeCode #デバッグ"
+  },
+  {
+    "id": 50,
+    "category": "tips",
+    "text": "Claude Codeにnpx expoコマンドの実行結果を見せると、エラーの原因特定と解決が一瞬。Expoのエラーメッセージは情報量多いからAI向き。 #ClaudeCode #Expo"
+  },
+  {
+    "id": 51,
+    "category": "tips",
+    "text": "Claude Codeで複数のプロジェクトを扱うとき、プロジェクトごとにCLAUDE.mdを用意するのが鉄則。混同されるのを防げる。 #ClaudeCode"
+  },
+  {
+    "id": 52,
+    "category": "tips",
+    "text": "Claude Codeで型定義ファイルを自動生成するの便利。Supabaseなら「npx supabase gen types typescript」の結果を貼るだけで型安全な開発ができる。 #ClaudeCode #Supabase"
+  },
+  {
+    "id": 53,
+    "category": "tips",
+    "text": "Claude Codeの会話が長くなりすぎたら、新しいセッション始めた方がいい。コンテキストが汚染されると精度が落ちる。区切りを意識しよう。 #ClaudeCode"
+  },
+  {
+    "id": 54,
+    "category": "tips",
+    "text": "Claude Codeで「ESLintのエラーを全部直して」と言うだけで、プロジェクト全体のlintエラーを一括修正してくれる。手動で直す時代は終わり。 #ClaudeCode #ESLint"
+  },
+  {
+    "id": 55,
+    "category": "tips",
+    "text": "Claude Codeでデザインシステムを構築するとき「共通のButtonコンポーネントをvariant対応で作って」と具体的に指示すると、再利用性の高いコンポーネントが生まれる。 #ClaudeCode"
+  },
+  {
+    "id": 56,
+    "category": "tips",
+    "text": "Claude CodeのCLI操作に慣れると、VS Codeのターミナルから直接使うのが最効率。エディタとAIがシームレスに繋がる感覚。 #ClaudeCode #VSCode"
+  },
+  {
+    "id": 57,
+    "category": "tips",
+    "text": "Claude Codeでapi呼び出しの共通化を頼むと綺麗にやってくれる。「fetchのラッパー関数を作って、エラーハンドリングを共通化して」で保守性UP。 #ClaudeCode"
+  },
+  {
+    "id": 58,
+    "category": "tips",
+    "text": "Claude Codeに「この画面のアクセシビリティを改善して」と頼むと、accessibilityLabelやroleを適切に追加してくれる。意外と忘れがちなところ。 #ClaudeCode #ReactNative"
+  },
+  {
+    "id": 59,
+    "category": "tips",
+    "text": "Claude Codeの出力でわからない部分があったら「なぜこの書き方にしたの？」と聞こう。理由を説明してくれるから学びになる。コピペで終わらせない。 #ClaudeCode"
+  },
+  {
+    "id": 60,
+    "category": "tips",
+    "text": "Claude Codeでナビゲーションの型定義を書かせると、画面遷移のパラメータも型安全になる。React Navigation v7との相性も抜群。 #ClaudeCode #ReactNavigation"
+  },
+  {
+    "id": 61,
+    "category": "tips",
+    "text": "Claude Codeで「このコードのセキュリティ的に問題ある箇所を指摘して」と聞くと、SQLインジェクションやXSSのリスクを教えてくれる。セキュリティレビューにも使える。 #ClaudeCode"
+  },
+  {
+    "id": 62,
+    "category": "tips",
+    "text": "Claude Codeでカスタムフックを作るとき「既存のフックとの命名規則を合わせて」と言うと、プロジェクト全体の一貫性が保たれる。use○○の命名大事。 #ClaudeCode #React"
+  },
+  {
+    "id": 63,
+    "category": "tips",
+    "text": "Claude Codeの/clearコマンドでコンテキストをリセットできる。話題が変わったときはリセットした方が次の回答の精度が高い。 #ClaudeCode"
+  },
+  {
+    "id": 64,
+    "category": "tips",
+    "text": "Claude Codeでgit logを見せてから「このコミット履歴からCHANGELOGを生成して」と言うと、リリースノートが一瞬でできる。 #ClaudeCode #Git"
+  },
+  {
+    "id": 65,
+    "category": "tips",
+    "text": "Claude Codeに作業させるとき、1つの指示で1つのタスクが基本。「あれもこれも」と詰め込むと品質が下がる。分割して依頼しよう。 #ClaudeCode"
+  },
+  {
+    "id": 66,
+    "category": "tips",
+    "text": "Claude Codeでexpo-routerのルーティング設定を書かせるとき、ファイルベースルーティングの構成を先に説明すると正確なコードが出る。 #ClaudeCode #Expo"
+  },
+  {
+    "id": 67,
+    "category": "tips",
+    "text": "Claude Codeに「このZustandストアにpersist middleware追加して」と言うだけで、AsyncStorageと連携した永続化が実装される。便利すぎ。 #ClaudeCode #Zustand"
+  },
+  {
+    "id": 68,
+    "category": "tips",
+    "text": "Claude Codeのベストプラクティス：大きな変更はブランチを切ってから。「新しいブランチ作ってから作業して」と指示すればOK。 #ClaudeCode #Git"
+  },
+  {
+    "id": 69,
+    "category": "tips",
+    "text": "Claude Codeでi18n対応するとき「日本語と英語の翻訳ファイルを作って」で多言語化の基盤ができる。翻訳もAIが得意な分野。 #ClaudeCode #i18n"
+  },
+  {
+    "id": 70,
+    "category": "tips",
+    "text": "Claude Codeに「このコンポーネントのスケルトンローディングを作って」と言うと、ContentLoaderやアニメーション付きのプレースホルダーを実装してくれる。UX改善に。 #ClaudeCode"
+  },
+  {
+    "id": 71,
+    "category": "tips",
+    "text": "Claude Codeでapp.jsonの設定を変更するとき、Expoのバージョンに合った設定かどうかも確認してくれる。互換性問題を事前に防げる。 #ClaudeCode #Expo"
+  },
+  {
+    "id": 72,
+    "category": "tips",
+    "text": "Claude Codeに「Firestoreのクエリを最適化して」と頼むとインデックスの提案もしてくれる。読み取り回数とコストの削減に直結。 #ClaudeCode #Firebase"
+  },
+  {
+    "id": 73,
+    "category": "tips",
+    "text": "Claude Codeで困ったら「何か見落としてる可能性ある？」と聞くのが効果的。意外な盲点を指摘してくれることがある。 #ClaudeCode"
+  },
+  {
+    "id": 74,
+    "category": "tips",
+    "text": "Claude Codeでexpoの設定ファイル触るとき、eas.jsonとapp.configの違いを把握しておくと指示が正確になる。ビルドとランタイムの設定は別物。 #ClaudeCode #Expo"
+  },
+  {
+    "id": 75,
+    "category": "tips",
+    "text": "Claude Codeに「Supabaseのリアルタイムサブスクリプション実装して」と言うとき、テーブル名とイベント種別を指定すると精度が高い。 #ClaudeCode #Supabase"
+  },
+  {
+    "id": 76,
+    "category": "tips",
+    "text": "Claude Codeでスクリーンショットの代わりにUIの状態をテキストで説明すると良い。「ボタンを押すと画面が白くなる」みたいに具体的に。 #ClaudeCode #デバッグ"
+  },
+  {
+    "id": 77,
+    "category": "tips",
+    "text": "Claude Codeにバッチ処理させるの便利。「src/screens/配下の全画面にローディング状態を追加して」みたいな一括修正が可能。 #ClaudeCode"
+  },
+  {
+    "id": 78,
+    "category": "tips",
+    "text": "Claude CodeでExpoのアップグレードも手伝ってもらえる。「Expo 54から55にアップグレードする手順教えて」でbreaking changesもチェックしてくれる。 #ClaudeCode #Expo"
+  },
+  {
+    "id": 79,
+    "category": "tips",
+    "text": "Claude Codeの使い方で意外と知られてないのが、画像ファイルを読み込む機能。UIのスクショを見せて「この画面を再現して」ができる。 #ClaudeCode"
+  },
+  {
+    "id": 80,
+    "category": "tips",
+    "text": "Claude Codeで効率上げるコツ：問題の再現手順をステップで書く。1.○○する 2.△△が表示される 3.期待は□□ みたいに。AIもデバッグしやすくなる。 #ClaudeCode"
+  },
+  {
+    "id": 81,
+    "category": "tips",
+    "text": "Claude Codeにtsconfig.jsonの最適化を頼むと、不要なオプションの削除や推奨設定への変更を提案してくれる。TypeScript周りの設定って意外と難しいから助かる。 #ClaudeCode"
+  },
+  {
+    "id": 82,
+    "category": "tips",
+    "text": "Claude Codeで「この機能の実装にどのくらい時間かかりそう？」と聞くと、作業の見積もりの参考になる。もちろんAIの見積もりだけど目安にはなる。 #ClaudeCode"
+  },
+  {
+    "id": 83,
+    "category": "tips",
+    "text": "Claude Codeでカスタムバリデーション作るの楽。「電話番号のバリデーション、日本の番号形式で」と指定すると、正規表現とエラーメッセージ付きで出てくる。 #ClaudeCode"
+  },
+  {
+    "id": 84,
+    "category": "tips",
+    "text": "Claude Codeでgitのコンフリクト解決もできる。マージ後に「コンフリクトを解決して」と言うと、両方の変更を理解した上で適切にマージしてくれる。 #ClaudeCode #Git"
+  },
+  {
+    "id": 85,
+    "category": "tips",
+    "text": "Claude Codeでデバッグするとき「console.logを要所に追加して」と言うとデバッグ用のログを適切な位置に入れてくれる。終わったら「消して」で一括削除も。 #ClaudeCode"
+  },
+  {
+    "id": 86,
+    "category": "tips",
+    "text": "Claude CodeのCLAUDE.mdに依存関係のバージョンを書いておくと、互換性のある解決策を提案してくれる。Expo SDKのバージョンとか特に重要。 #ClaudeCode"
+  },
+  {
+    "id": 87,
+    "category": "tips",
+    "text": "Claude Codeでアニメーション実装するとき「react-native-reanimatedでフェードインアニメーション作って」みたいに使うライブラリを指定すると正確。 #ClaudeCode #ReactNative"
+  },
+  {
+    "id": 88,
+    "category": "tips",
+    "text": "Claude Codeに「今日の変更をまとめて」と言うとgit diffから変更サマリーを作ってくれる。日報や開発ログに使える。 #ClaudeCode #Git"
+  },
+  {
+    "id": 89,
+    "category": "tips",
+    "text": "Claude Codeでフォーム実装するとき「react-hook-formで」と指定すると、zodバリデーション連携まで込みで提案してくれる。フォーム周りのboilerplate削減。 #ClaudeCode"
+  },
+  {
+    "id": 90,
+    "category": "tips",
+    "text": "Claude Codeで新しいスクリーンを追加するとき、ナビゲーターへの登録まで一気にやってもらう。「画面作成→型追加→ナビゲーター登録」をワンセットで。 #ClaudeCode #ReactNative"
+  },
+  {
+    "id": 91,
+    "category": "tips",
+    "text": "Claude Codeで「この関数をpure functionに書き換えて」と言うと副作用を分離してくれる。テストしやすいコードになる。リファクタリングの味方。 #ClaudeCode"
+  },
+  {
+    "id": 92,
+    "category": "tips",
+    "text": "Claude Codeでデモモード実装するの便利。「Firebaseを使わないモックモードを作って」で、オフラインでも動くデモ版ができる。 #ClaudeCode #Firebase"
+  },
+  {
+    "id": 93,
+    "category": "tips",
+    "text": "Claude Codeの出力コードに「TODO」コメントが入ってたら要注意。「後で実装」の部分が残ってる。見逃さずに対応しよう。 #ClaudeCode"
+  },
+  {
+    "id": 94,
+    "category": "tips",
+    "text": "Claude CodeでExpoのプッシュ通知設定も手伝ってもらえる。expo-notificationsの設定からバックエンドの送信ロジックまで。 #ClaudeCode #Expo"
+  },
+  {
+    "id": 95,
+    "category": "tips",
+    "text": "Claude Codeに「型の整理をして」と頼むとsrc/types/にまとめてくれる。散らばった型定義を1箇所に集約すると保守性が上がる。 #ClaudeCode #TypeScript"
+  },
+  {
+    "id": 96,
+    "category": "tips",
+    "text": "Claude Codeで画像アップロード機能を実装するとき、Firebase StorageでもSupabase Storageでも「アップロード→URL取得→表示」のフローを一気に作ってくれる。 #ClaudeCode"
+  },
+  {
+    "id": 97,
+    "category": "tips",
+    "text": "Claude Codeでtsのas演算子を使いすぎてる箇所を「型アサーション減らして」と言うと、proper typingに修正してくれる。型安全性UP。 #ClaudeCode #TypeScript"
+  },
+  {
+    "id": 98,
+    "category": "tips",
+    "text": "Claude Codeで「このAPIレスポンスの型をTypeScriptの型定義に変換して」と言ってJSONを貼ると、完璧な型が生成される。interface vs type aliasの使い分けも。 #ClaudeCode"
+  },
+  {
+    "id": 99,
+    "category": "tips",
+    "text": "Claude Codeでpackage.jsonの依存関係を確認するとき「使われていないパッケージを特定して」と頼むと、不要な依存を洗い出してくれる。バンドルサイズ削減に。 #ClaudeCode"
+  },
+  {
+    "id": 100,
+    "category": "tips",
+    "text": "Claude Codeの最大の価値は速度じゃなくて「思考の壁打ち相手」になること。「この設計どう思う？」で建設的なフィードバックが返ってくる。 #ClaudeCode #AI開発"
+  },
+  {
+    "id": 101,
+    "category": "mindset",
+    "text": "AIに仕事を奪われると怖がるより、AIを使いこなすエンジニアが最強になる未来を想像してみて。ツールは使う人次第。 #AIエンジニア #キャリア"
+  },
+  {
+    "id": 102,
+    "category": "mindset",
+    "text": "Claude Codeを使い始めて実感したこと：AIはエンジニアの代替じゃなくて増幅器。設計力がある人ほどAIの恩恵が大きい。 #AI開発 #エンジニア"
+  },
+  {
+    "id": 103,
+    "category": "mindset",
+    "text": "個人開発者にとってAIは最高のチームメイト。デザイナー・テスター・レビュアーを一人で兼任できる時代。すごい時代に生まれた。 #AI開発 #個人開発"
+  },
+  {
+    "id": 104,
+    "category": "mindset",
+    "text": "AIがコード書ける時代に人間のエンジニアに求められるのは「何を作るか」を決める力。技術力は前提、判断力が差別化要因になる。 #AIエンジニア"
+  },
+  {
+    "id": 105,
+    "category": "mindset",
+    "text": "「AIに任せたら自分の成長が止まる」は誤解。AIと対話しながら開発すると、むしろ知らない技術を効率的に学べる。 #AI開発 #学習"
+  },
+  {
+    "id": 106,
+    "category": "mindset",
+    "text": "AI開発ツールを使い始めて1ヶ月。開発速度は3倍以上になった。でも本当に変わったのは「挑戦できる範囲」が広がったこと。 #AI開発 #ClaudeCode"
+  },
+  {
+    "id": 107,
+    "category": "mindset",
+    "text": "2026年のエンジニアに必要なスキル：コードを書く力＋AIに正しく指示する力＋AIの出力を評価する力。3つ揃って初めて最強。 #AIエンジニア #キャリア"
+  },
+  {
+    "id": 108,
+    "category": "mindset",
+    "text": "AIを使ったから手抜きとか、ズルいとか思わなくていい。電卓使って計算するのと同じ。道具を使いこなすのもスキルの一つ。 #AI開発"
+  },
+  {
+    "id": 109,
+    "category": "mindset",
+    "text": "フリーランスエンジニアとしてAIツールに投資するのは、職人が良い工具を買うのと同じ。月額の元は1日で取れる。 #フリーランス #AI開発"
+  },
+  {
+    "id": 110,
+    "category": "mindset",
+    "text": "AIがあっても、ユーザーの課題を理解して解決策を設計できるのは人間だけ。テクノロジーは手段、課題解決が本質。 #AIエンジニア"
+  },
+  {
+    "id": 111,
+    "category": "mindset",
+    "text": "Claude Codeのおかげで「技術的にできるけど時間がなくて諦めてた機能」を実装できるようになった。可能性の幅が広がる感覚。 #ClaudeCode #AI開発"
+  },
+  {
+    "id": 112,
+    "category": "mindset",
+    "text": "1人で2つのアプリを同時開発できてるのは間違いなくAIのおかげ。数年前なら考えられなかった開発スピード。 #AI開発 #個人開発"
+  },
+  {
+    "id": 113,
+    "category": "mindset",
+    "text": "AIエンジニアリングの時代、大事なのは「完璧なコードを書く力」より「80点のコードを素早く出して改善し続ける力」。スピードが正義。 #AIエンジニア"
+  },
+  {
+    "id": 114,
+    "category": "mindset",
+    "text": "AIに仕事を任せる＝楽をする、じゃない。空いた時間でより創造的な仕事に集中できる。思考に使う時間が増えるのは最高。 #AI開発"
+  },
+  {
+    "id": 115,
+    "category": "mindset",
+    "text": "プログラミング初学者こそAIを使うべき。エラーメッセージの意味を聞ける、コードの説明をしてもらえる。最高の家庭教師。 #AI開発 #プログラミング学習"
+  },
+  {
+    "id": 116,
+    "category": "mindset",
+    "text": "AIと協働する開発は、ペアプログラミングの進化形。相手が疲れない、感情的にならない、24時間対応。理想のペアプロ相手。 #AI開発 #ペアプロ"
+  },
+  {
+    "id": 117,
+    "category": "mindset",
+    "text": "AI時代のエンジニアの価値は「何ができるか」から「何を解決したか」にシフトしていく。アウトプットの質で評価される時代。 #AIエンジニア #キャリア"
+  },
+  {
+    "id": 118,
+    "category": "mindset",
+    "text": "「AI使えばコード書かなくていい」は半分正解で半分間違い。書かなくていいけど、読む力と評価する力は今まで以上に必要。 #AI開発"
+  },
+  {
+    "id": 119,
+    "category": "mindset",
+    "text": "フリーランスエンジニアとしてAIツールを使いこなせるかどうかが、今後の受注力に直結する。クライアントが求めてるのはスピードと品質。 #フリーランス #AIエンジニア"
+  },
+  {
+    "id": 120,
+    "category": "mindset",
+    "text": "AIに対する恐怖は「未知」から来る。実際に使ってみると「便利な道具」でしかない。まず触ってみよう。そこからすべてが始まる。 #AI開発"
+  },
+  {
+    "id": 121,
+    "category": "mindset",
+    "text": "技術記事を書くとき、AIに下書きを手伝ってもらって、自分の経験と言葉で仕上げる。この組み合わせが最強の発信スタイル。 #AI開発 #アウトプット"
+  },
+  {
+    "id": 122,
+    "category": "mindset",
+    "text": "AI時代の差別化は「体験」。実際にアプリを作って、ユーザーに使ってもらって、改善した経験はAIには真似できない。 #AIエンジニア #個人開発"
+  },
+  {
+    "id": 123,
+    "category": "mindset",
+    "text": "エンジニアがAIを嫌ってる場合じゃない。AIを味方につけたエンジニアとそうでないエンジニア、生産性の差は開く一方。 #AIエンジニア"
+  },
+  {
+    "id": 124,
+    "category": "mindset",
+    "text": "Claude Codeを使い始めて変わったこと：「これ実装大変そうだな」と思うハードルが下がった。挑戦するマインドが変わる。 #ClaudeCode #AI開発"
+  },
+  {
+    "id": 125,
+    "category": "mindset",
+    "text": "AIが書いたコードを「自分のコード」として世に出す責任感は持とう。動くかどうか、安全かどうか、最終判断は人間の仕事。 #AI開発 #エンジニア"
+  },
+  {
+    "id": 126,
+    "category": "mindset",
+    "text": "個人開発×AIの時代、一人で作れるものの上限が爆上がりしている。大企業じゃなくても世界を変えるサービスを作れる可能性がある。 #AI開発 #個人開発"
+  },
+  {
+    "id": 127,
+    "category": "mindset",
+    "text": "エンジニアの学習方法がAIで変わった。ドキュメント読む→試す→エラー→調べる、のサイクルが爆速化。学習曲線が緩やかになってる。 #AI開発 #学習"
+  },
+  {
+    "id": 128,
+    "category": "mindset",
+    "text": "AIに依存しすぎると基礎力が落ちるという意見、わかる。だからこそ基礎はしっかり学んだ上でAIをレバレッジとして使うのが正解。 #AIエンジニア"
+  },
+  {
+    "id": 129,
+    "category": "mindset",
+    "text": "AI×フリーランスは最強の組み合わせ。一人で複数案件を回せる生産性と、柔軟な働き方。この時代にフリーランスで良かった。 #フリーランス #AI開発"
+  },
+  {
+    "id": 130,
+    "category": "mindset",
+    "text": "「AIが書いたコードは信用できない」って人、人間が書いたコードもバグだらけだよ。大事なのはレビューとテスト。誰が書いたかは関係ない。 #AI開発"
+  },
+  {
+    "id": 131,
+    "category": "mindset",
+    "text": "AI開発ツールを使うエンジニアと使わないエンジニアの生産性格差、もう「差」じゃなくて「次元」が違う。2026年の現実。 #AIエンジニア"
+  },
+  {
+    "id": 132,
+    "category": "mindset",
+    "text": "コードを書く速度が上がると、考える時間が増える。AIがもたらした最大の恩恵は「思考の余白」だと思う。 #AI開発"
+  },
+  {
+    "id": 133,
+    "category": "mindset",
+    "text": "AI時代のエンジニアのキャリア戦略：特定の技術に固執せず、問題解決能力を磨く。技術は変わるけど課題解決力は普遍的。 #AIエンジニア #キャリア"
+  },
+  {
+    "id": 134,
+    "category": "mindset",
+    "text": "プロンプトエンジニアリングは新しいプログラミング言語だと思ってる。AIに正確に伝える技術は今後ますます重要になる。 #AI開発"
+  },
+  {
+    "id": 135,
+    "category": "mindset",
+    "text": "自分の得意分野×AI＝圧倒的な成果。AIは万能だけど、方向性を決めるのは人間の専門知識。ドメイン知識がますます重要。 #AIエンジニア"
+  },
+  {
+    "id": 136,
+    "category": "mindset",
+    "text": "AIのおかげで「プログラミングの民主化」が進んでる。コードが書けなくてもアイデアを形にできる時代。すごく良いこと。 #AI開発"
+  },
+  {
+    "id": 137,
+    "category": "mindset",
+    "text": "フリーランスのITコンサルとしてクライアントにAI活用を提案すると喜ばれる。エンジニアだけじゃなくビジネス全体がAIで変わる。 #フリーランス #AIコンサル"
+  },
+  {
+    "id": 138,
+    "category": "mindset",
+    "text": "AI時代に最も価値があるのは「なぜ」を問える人。AIは「どうやって」には強いけど「なぜそれが必要か」は人間が考える。 #AIエンジニア"
+  },
+  {
+    "id": 139,
+    "category": "mindset",
+    "text": "毎日AIと一緒にコード書いてると、AIの限界も見えてくる。万能じゃないからこそ、人間の判断力が光る場面がある。 #AI開発"
+  },
+  {
+    "id": 140,
+    "category": "mindset",
+    "text": "技術者の仕事は「実装」から「設計と意思決定」にシフトしている。AIが手を動かし、人間が頭を使う。最高の役割分担。 #AIエンジニア"
+  },
+  {
+    "id": 141,
+    "category": "mindset",
+    "text": "AI開発ツールへの投資は自己投資。時間を買ってるのと同じ。浮いた時間で新しい技術を学んだり、家族と過ごしたり。 #AI開発 #自己投資"
+  },
+  {
+    "id": 142,
+    "category": "mindset",
+    "text": "未経験からエンジニアになるのは今が一番チャンス。AIがあれば学習効率は爆上がりだし、成果物も早く作れる。やらない理由がない。 #プログラミング学習 #AI開発"
+  },
+  {
+    "id": 143,
+    "category": "mindset",
+    "text": "「AIで仕事がなくなる」じゃなくて「AIを使う仕事が増える」が正解。新しい職種やスキルが生まれている。変化を楽しもう。 #AIエンジニア"
+  },
+  {
+    "id": 144,
+    "category": "mindset",
+    "text": "AIコーディングツールは道具。包丁が料理人を不要にしないように、AIもエンジニアを不要にしない。使いこなす人が輝く。 #AI開発"
+  },
+  {
+    "id": 145,
+    "category": "mindset",
+    "text": "2つのアプリを同時に作ってて思う。AIがなかったら1つすら完成してなかったかもしれない。テクノロジーに感謝する毎日。 #AI開発 #個人開発"
+  },
+  {
+    "id": 146,
+    "category": "mindset",
+    "text": "AI時代のエンジニアの最強スキルはコミュニケーション力。クライアントの要望を理解し、AIに正しく伝え、結果を検証する。全部コミュニケーション。 #AIエンジニア"
+  },
+  {
+    "id": 147,
+    "category": "mindset",
+    "text": "趣味で始めた個人開発がAIのおかげで実用レベルのアプリになった。昔は「個人開発＝未完成で終わる」だったのに。 #個人開発 #AI開発"
+  },
+  {
+    "id": 148,
+    "category": "mindset",
+    "text": "エンジニアがAIに置き換えられるんじゃなくて、AIを使えるエンジニアが使えないエンジニアに置き換わる。この違い、大きい。 #AIエンジニア"
+  },
+  {
+    "id": 149,
+    "category": "mindset",
+    "text": "AIと人間の協働で生まれるコードは、どちらか単体で書いたコードより品質が高い。AIの網羅性×人間の判断力。最強の組み合わせ。 #AI開発"
+  },
+  {
+    "id": 150,
+    "category": "mindset",
+    "text": "フリーランスITコンサルとして、AIを活用した開発を提案できるのは強み。技術選定にAIツール込みで考える時代になった。 #フリーランス #AIエンジニア"
+  },
+  {
+    "id": 151,
+    "category": "mindset",
+    "text": "AIの進化が速すぎて追いつけないと感じる人へ。全部追う必要はない。自分の仕事に使えるツールを1つマスターするだけで十分。 #AI開発"
+  },
+  {
+    "id": 152,
+    "category": "mindset",
+    "text": "AI開発ツールがあるからといって設計をサボると後で地獄を見る。AIは指示通りに作ってくれるけど、指示が間違ってたら元も子もない。 #AI開発 #設計"
+  },
+  {
+    "id": 153,
+    "category": "mindset",
+    "text": "エンジニアとしての市場価値を上げたいなら、AIツールの使い方を発信しよう。実践経験のある人の情報は需要が高い。 #AIエンジニア #アウトプット"
+  },
+  {
+    "id": 154,
+    "category": "mindset",
+    "text": "AIの恩恵を最大化するために必要なのは、プログラミングスキルよりも「何を作りたいかの明確なビジョン」。ゴールが曖昧だとAIも迷う。 #AI開発"
+  },
+  {
+    "id": 155,
+    "category": "mindset",
+    "text": "2026年、AIを使わずにコード書いてるのは、2010年にStack Overflowを使わずにコード書いてたようなもの。道具は使おう。 #AIエンジニア"
+  },
+  {
+    "id": 156,
+    "category": "mindset",
+    "text": "AIがあればシニアエンジニアは不要？逆。AIの出力を正しく評価できるのはシニアだけ。経験の価値はむしろ上がっている。 #AIエンジニア #キャリア"
+  },
+  {
+    "id": 157,
+    "category": "mindset",
+    "text": "個人開発者がAIを使うと、企業の開発チームに匹敵するスピードで開発できる。一人スタートアップの時代が本格的に来た。 #個人開発 #AI開発"
+  },
+  {
+    "id": 158,
+    "category": "mindset",
+    "text": "AIに頼り切ると思考力が落ちるという不安、わかる。だからAIの回答を「考えるきっかけ」として使う。答えをそのまま使うんじゃなく。 #AI開発"
+  },
+  {
+    "id": 159,
+    "category": "mindset",
+    "text": "テクノロジーは常に進化する。大事なのは特定のツールに依存することじゃなく、新しいツールを素早く学ぶ適応力。 #AIエンジニア #キャリア"
+  },
+  {
+    "id": 160,
+    "category": "mindset",
+    "text": "育児アプリを作りながら思うこと。AIの力を借りて、本当に社会に必要なサービスを届けたい。技術は社会貢献の手段。 #AI開発 #個人開発"
+  },
+  {
+    "id": 161,
+    "category": "mindset",
+    "text": "AIに「何を聞くか」を知っている人が強い。正しい質問ができるのは、ドメイン知識があるから。知識と経験は裏切らない。 #AIエンジニア"
+  },
+  {
+    "id": 162,
+    "category": "mindset",
+    "text": "開発速度が上がると、仮説検証のサイクルも速くなる。AIのおかげで「作って試して学ぶ」がこれまでの何倍も回せる。 #AI開発 #スタートアップ"
+  },
+  {
+    "id": 163,
+    "category": "mindset",
+    "text": "AIを使った開発を「ズル」と思う文化、早く変わってほしい。電卓もExcelも最初は批判されたけど今は当たり前。AIも同じ。 #AI開発"
+  },
+  {
+    "id": 164,
+    "category": "mindset",
+    "text": "コンサルティングの現場でもAIの話は必須になってきた。「AIで何ができるか」を具体的に示せるエンジニアは重宝される。 #ITコンサル #AI開発"
+  },
+  {
+    "id": 165,
+    "category": "mindset",
+    "text": "AI時代に生き残るエンジニアの特徴：好奇心が強い、新しいツールを試すのが好き、変化を楽しめる。技術力だけじゃないんだよね。 #AIエンジニア"
+  },
+  {
+    "id": 166,
+    "category": "mindset",
+    "text": "AIのおかげで「未経験の技術」への挑戦ハードルが劇的に下がった。知らないフレームワークでもAIと一緒なら怖くない。 #AI開発 #学習"
+  },
+  {
+    "id": 167,
+    "category": "mindset",
+    "text": "AIコーディングツールが進化しても、最終的にプロダクトの良し悪しを決めるのはUX。ユーザー目線で考える力は人間にしかない。 #AIエンジニア #UX"
+  },
+  {
+    "id": 168,
+    "category": "mindset",
+    "text": "今日からAIを使い始めても遅くない。むしろ今が一番早い。1年後の自分に感謝されるよ。 #AI開発 #行動"
+  },
+  {
+    "id": 169,
+    "category": "mindset",
+    "text": "AIが生成するコードの品質は日々上がっている。でも「何を作るべきか」の判断力は変わらず人間に求められる。 #AIエンジニア"
+  },
+  {
+    "id": 170,
+    "category": "mindset",
+    "text": "フリーランスエンジニアとして、AIツールへの投資は経費。それ以上のリターンが確実に返ってくる。迷わず投資しよう。 #フリーランス #AI開発"
+  },
+  {
+    "id": 171,
+    "category": "mindset",
+    "text": "AI×エンジニアリングの未来は明るい。人間の創造力とAIの実行力が合わされば、今まで不可能だったものが作れる。 #AIエンジニア"
+  },
+  {
+    "id": 172,
+    "category": "mindset",
+    "text": "観光マッチングアプリを作ってて感じること。AIがあるから技術的なハードルは低い。本当に大変なのはユーザー獲得。技術以外の力も大事。 #個人開発 #スタートアップ"
+  },
+  {
+    "id": 173,
+    "category": "mindset",
+    "text": "AIが進化すればするほど「人間らしさ」の価値が上がる。共感、直感、美的センス。これらを技術に組み込めるエンジニアが最強。 #AIエンジニア"
+  },
+  {
+    "id": 174,
+    "category": "mindset",
+    "text": "エンジニアリングの本質は問題解決。AIはその手段を増やしてくれただけ。本質は変わっていない。 #AIエンジニア"
+  },
+  {
+    "id": 175,
+    "category": "mindset",
+    "text": "AI開発ツールを使ってても、基礎を学ぶのはサボらない方がいい。なぜなら、基礎がわかってる人の方がAIの出力を正しく評価できるから。 #AI開発 #学習"
+  },
+  {
+    "id": 176,
+    "category": "mindset",
+    "text": "AIと対話しながらコードを書く体験は、未来のプログラミングの標準になる。今のうちに慣れておくのが吉。 #AI開発"
+  },
+  {
+    "id": 177,
+    "category": "mindset",
+    "text": "コンサル×開発×AIの三刀流。クライアントの課題を理解して、AIを活用して素早く解決する。この組み合わせが市場で求められている。 #ITコンサル #AI開発"
+  },
+  {
+    "id": 178,
+    "category": "mindset",
+    "text": "AIは24時間働ける最強のアシスタント。でも方向性を決めるのは自分。リーダーシップとビジョンが今まで以上に重要になる。 #AIエンジニア"
+  },
+  {
+    "id": 179,
+    "category": "mindset",
+    "text": "AIを使った開発で最も大事なこと：結果に責任を持つ。AIが書いたコードのバグは、AIじゃなく開発者の責任。プロ意識。 #AI開発 #エンジニア"
+  },
+  {
+    "id": 180,
+    "category": "mindset",
+    "text": "今のAIは完璧じゃないけど、半年後にはもっと良くなる。この進化の波に乗るか乗らないかで、キャリアが大きく変わる。 #AIエンジニア #キャリア"
+  },
+  {
+    "id": 181,
+    "category": "learning",
+    "text": "プログラミング初心者が最初に学ぶべき言語は？2026年ならTypeScript一択。Web、モバイル、バックエンド全部カバーできる。 #プログラミング学習 #TypeScript"
+  },
+  {
+    "id": 182,
+    "category": "learning",
+    "text": "エンジニアの学習法で一番効果的だと思うのは「作りたいものを作る」こと。チュートリアルを終わらせるだけじゃ力がつかない。 #プログラミング学習"
+  },
+  {
+    "id": 183,
+    "category": "learning",
+    "text": "Git、ちゃんと学んだ方がいい。add, commit, pushだけじゃなく、branch, merge, rebaseまで理解すると開発効率が段違い。 #Git #学習"
+  },
+  {
+    "id": 184,
+    "category": "learning",
+    "text": "CLI（コマンドライン）に慣れるのは早い方がいい。最初はGUIでよくても、ある段階からCLIの方が圧倒的に速くなる。 #CLI #学習"
+  },
+  {
+    "id": 185,
+    "category": "learning",
+    "text": "TypeScriptのstrictモード、最初からONにしよう。後からONにすると大量のエラーが出てつらい。最初から厳しくする方が結局楽。 #TypeScript #学習"
+  },
+  {
+    "id": 186,
+    "category": "learning",
+    "text": "React学ぶならまずuseStateとuseEffectを完璧に理解すること。この2つがわかれば8割の機能は作れる。 #React #学習"
+  },
+  {
+    "id": 187,
+    "category": "learning",
+    "text": "バックエンド学習、今ならSupabaseから始めるのがおすすめ。PostgreSQLの知識もつくし、認証・ストレージも一通り学べる。 #Supabase #学習"
+  },
+  {
+    "id": 188,
+    "category": "learning",
+    "text": "エンジニアがアウトプットを習慣化するなら技術記事がおすすめ。書くことで知識が定着するし、ポートフォリオにもなる。一石二鳥。 #アウトプット #Zenn"
+  },
+  {
+    "id": 189,
+    "category": "learning",
+    "text": "「何から勉強すればいいかわからない」という人へ。とりあえずNode.jsをインストールしてnpx create-expo-appしてみよう。触りながら学ぶのが最速。 #学習 #Expo"
+  },
+  {
+    "id": 190,
+    "category": "learning",
+    "text": "SQLは全エンジニア必須スキル。AIがあってもSQLの基本がわかってないとDB設計の良し悪しが判断できない。 #SQL #学習"
+  },
+  {
+    "id": 191,
+    "category": "learning",
+    "text": "技術書を読むのも大事だけど、公式ドキュメントを読む力を鍛えた方がいい。最新情報は常に公式にある。 #学習 #エンジニア"
+  },
+  {
+    "id": 192,
+    "category": "learning",
+    "text": "React Nativeでモバイルアプリ開発を学ぶのは、2026年でもコスパ最高の選択肢。iOS/Android両対応をJSで書ける。 #ReactNative #学習"
+  },
+  {
+    "id": 193,
+    "category": "learning",
+    "text": "学習のコツ：完璧に理解してから次に進もうとしない。7割理解したら実践に移る。残りの3割は使いながら身につく。 #学習 #エンジニア"
+  },
+  {
+    "id": 194,
+    "category": "learning",
+    "text": "Firebaseを学ぶならAuthenticationから。メールパスワード認証を実装するだけでバックエンドの基礎概念が一通り学べる。 #Firebase #学習"
+  },
+  {
+    "id": 195,
+    "category": "learning",
+    "text": "Zustandの学習コスト、Reduxの10分の1くらい。状態管理を初めて学ぶならZustandから入るのが2026年の正解。 #Zustand #React"
+  },
+  {
+    "id": 196,
+    "category": "learning",
+    "text": "エンジニアとして成長したいなら、居心地のいい技術から一歩出てみる。新しいフレームワーク、新しい言語。成長は常に快適ゾーンの外にある。 #エンジニア #成長"
+  },
+  {
+    "id": 197,
+    "category": "learning",
+    "text": "技術選定に迷ったら「コミュニティの大きさ」で選ぶ。困ったとき情報が見つかるかどうかは開発効率に直結する。 #技術選定"
+  },
+  {
+    "id": 198,
+    "category": "learning",
+    "text": "ExpoでReact Nativeを始めるとき、最初はExpo Goで動かすのが楽。ネイティブモジュールが必要になったらdev buildに切り替える。 #Expo #ReactNative"
+  },
+  {
+    "id": 199,
+    "category": "learning",
+    "text": "英語のドキュメントが読めるようになると技術者としての世界が広がる。完璧じゃなくていい。DeepLやAIを使えばOK。 #学習 #エンジニア"
+  },
+  {
+    "id": 200,
+    "category": "learning",
+    "text": "初心者がよくやるミス：最新技術を追いすぎて基礎をおろそかにする。HTML/CSS/JSの基礎はフレームワーク以前に必要。 #プログラミング学習"
+  },
+  {
+    "id": 201,
+    "category": "learning",
+    "text": "デバッグ力を上げるには「エラーメッセージを読む」習慣をつけること。最初は意味不明でも、読み続けると読めるようになる。 #デバッグ #学習"
+  },
+  {
+    "id": 202,
+    "category": "learning",
+    "text": "VSCodeの拡張機能、最低限これは入れとけ：ESLint、Prettier、GitLens、TypeScript関連。開発効率が全然違う。 #VSCode #学習"
+  },
+  {
+    "id": 203,
+    "category": "learning",
+    "text": "状態管理の学習順序のおすすめ：useState → useContext → Zustand。Reduxは必要になってからでOK。 #React #状態管理"
+  },
+  {
+    "id": 204,
+    "category": "learning",
+    "text": "REST APIの基礎はどのエンジニアも押さえておくべき。GET/POST/PUT/DELETEの概念がわかるとバックエンド連携が楽になる。 #API #学習"
+  },
+  {
+    "id": 205,
+    "category": "learning",
+    "text": "テストコードを書く習慣、早いうちにつけた方がいい。最初は面倒に感じるけど、バグの早期発見で結局時間の節約になる。 #テスト #学習"
+  },
+  {
+    "id": 206,
+    "category": "learning",
+    "text": "フロントエンドだけやってる人、一度バックエンドも触ってみて。フルスタックの視点があると設計の質が上がるし市場価値も上がる。 #フルスタック #学習"
+  },
+  {
+    "id": 207,
+    "category": "learning",
+    "text": "npm/yarnの基本操作は暗記レベルで覚えた方がいい。install, add, remove, run。毎日使うコマンドだから。 #npm #学習"
+  },
+  {
+    "id": 208,
+    "category": "learning",
+    "text": "環境構築で挫折する人多いけど、今はExpoとSupabaseのおかげでかなり楽になってる。環境構築ゼロで開発始められる時代。 #Expo #Supabase"
+  },
+  {
+    "id": 209,
+    "category": "learning",
+    "text": "データベース設計を学ぶなら、まず正規化の概念を理解する。1NF→2NF→3NFの順番で。これがわかるとテーブル設計が劇的に良くなる。 #データベース #学習"
+  },
+  {
+    "id": 210,
+    "category": "learning",
+    "text": "毎日30分のコーディング習慣が一番効果的。週末にまとめて8時間やるより、毎日少しずつの方が定着する。 #プログラミング学習"
+  },
+  {
+    "id": 211,
+    "category": "learning",
+    "text": "Gitのブランチ運用はfeatureブランチモデルから覚えよう。main, develop, featureの使い分けがわかれば実務で困らない。 #Git #学習"
+  },
+  {
+    "id": 212,
+    "category": "learning",
+    "text": "アプリの状態管理で詰まったら、まず「どのデータがグローバルで、どのデータがローカルか」を整理する。それだけで解決することが多い。 #React #状態管理"
+  },
+  {
+    "id": 213,
+    "category": "learning",
+    "text": "React Nativeの学習は、まずReact（Web版）を理解してからの方がスムーズ。コンポーネント、props、stateの概念は共通。 #ReactNative #学習"
+  },
+  {
+    "id": 214,
+    "category": "learning",
+    "text": "技術記事を書くときのコツ：過去の自分に向けて書く。「あの時こう教えてもらえたら嬉しかった」という視点で。 #アウトプット #Zenn"
+  },
+  {
+    "id": 215,
+    "category": "learning",
+    "text": "TypeScriptの型定義を学ぶとき、まずはstring, number, booleanの基本型から。interface/typeは使いながら覚える。一気に全部覚えなくていい。 #TypeScript"
+  },
+  {
+    "id": 216,
+    "category": "learning",
+    "text": "async/awaitは現代JSの必須知識。Promiseの概念がわかってからasync/awaitを学ぶと、非同期処理が怖くなくなる。 #JavaScript #学習"
+  },
+  {
+    "id": 217,
+    "category": "learning",
+    "text": "スマホアプリ開発を始めたい人へ。いきなりSwift/Kotlinじゃなく、React Native + Expoから入るのがおすすめ。学習コストが圧倒的に低い。 #ReactNative #Expo"
+  },
+  {
+    "id": 218,
+    "category": "learning",
+    "text": "認証機能の実装は最初に経験しておくべき。Firebase AuthでもSupabase Authでも、一度経験すると仕組みがわかって応用が効く。 #認証 #学習"
+  },
+  {
+    "id": 219,
+    "category": "learning",
+    "text": "CSSよりTailwindから入る方が今は効率的。デザインシステムの考え方も同時に学べるし、React Native（NativeWind）でもそのまま使える。 #Tailwind #学習"
+  },
+  {
+    "id": 220,
+    "category": "learning",
+    "text": "個人開発の題材に迷ったら、自分が不便に感じてることをアプリにしてみる。自分がユーザーだから要件が明確で作りやすい。 #個人開発"
+  },
+  {
+    "id": 221,
+    "category": "learning",
+    "text": "エンジニアの勉強会やコミュニティに参加するの大事。技術の話ができる仲間がいるとモチベーションが持続する。 #エンジニア #コミュニティ"
+  },
+  {
+    "id": 222,
+    "category": "learning",
+    "text": "ポートフォリオは「何を作ったか」より「なぜ作ったか」と「何を学んだか」を書いた方が評価される。技術力だけじゃなく思考力を見せよう。 #ポートフォリオ #キャリア"
+  },
+  {
+    "id": 223,
+    "category": "learning",
+    "text": "Supabaseが面白いのはPostgreSQLベースだから、学んだことがそのままSQLの知識になること。BaaSの使い方だけじゃなくRDBの基礎も身につく。 #Supabase #SQL"
+  },
+  {
+    "id": 224,
+    "category": "learning",
+    "text": "ESLintの設定は最初から入れておこう。コードの品質を自動で保ってくれる。設定が面倒なら eslint-config-expo が楽。 #ESLint #学習"
+  },
+  {
+    "id": 225,
+    "category": "learning",
+    "text": "学習中に「完璧にわからない」と止まるより「8割わかったから次行く」の精神で進むと、後から点が線になる瞬間が来る。 #学習 #プログラミング"
+  },
+  {
+    "id": 226,
+    "category": "learning",
+    "text": "React Queryを学ぶと、データ取得の煩雑さから解放される。ローディング、エラー、キャッシュを全部管理してくれる。現代React開発の必須知識。 #ReactQuery #学習"
+  },
+  {
+    "id": 227,
+    "category": "learning",
+    "text": "JSONを理解することは、Web開発の基本のき。APIレスポンス、設定ファイル、データ構造。全部JSONで表現される。 #JSON #学習"
+  },
+  {
+    "id": 228,
+    "category": "learning",
+    "text": "モバイルアプリのUIデザインを学ぶなら、まず既存の良いアプリを観察する。「なぜこの配置なのか」を考えるだけでデザイン力が上がる。 #UI #モバイルアプリ"
+  },
+  {
+    "id": 229,
+    "category": "learning",
+    "text": "技術選定で大事なのは「流行ってるから」じゃなく「チームで長期的に使えるか」。メンテナンス性と学習コストのバランス。 #技術選定"
+  },
+  {
+    "id": 230,
+    "category": "learning",
+    "text": "Expoのドキュメントは本当に充実してる。日本語情報が少ないと感じたら公式ドキュメントを読もう。コード例も豊富。 #Expo #学習"
+  },
+  {
+    "id": 231,
+    "category": "learning",
+    "text": "環境変数の使い方を早めに覚えよう。.envファイルでAPIキーを管理する基本ができれば、セキュリティ意識も自然と身につく。 #セキュリティ #学習"
+  },
+  {
+    "id": 232,
+    "category": "learning",
+    "text": "型のあるコードに慣れると、型なしに戻れなくなる。TypeScriptは最初はめんどくさいけど、中規模以上のプロジェクトで恩恵が爆発する。 #TypeScript"
+  },
+  {
+    "id": 233,
+    "category": "learning",
+    "text": "コードを書く前に設計する習慣をつけよう。画面遷移図、データの流れ、APIの一覧。これがあると実装が3倍速くなる。 #設計 #学習"
+  },
+  {
+    "id": 234,
+    "category": "learning",
+    "text": "初心者が最初に作るアプリはTodoリストが定番だけど、個人的には天気アプリをおすすめする。API連携の基礎が学べるから。 #プログラミング学習"
+  },
+  {
+    "id": 235,
+    "category": "learning",
+    "text": "エンジニアの学習に終わりはない。でもそれが楽しい。新しい技術を学ぶたびに可能性が広がる。この感覚がエンジニアの醍醐味。 #エンジニア #学習"
+  },
+  {
+    "id": 236,
+    "category": "learning",
+    "text": "React Nativeのデバッグは最初戸惑うけど、Flipperに慣れると快適。ネットワーク通信やRedux stateが見れて便利。 #ReactNative #デバッグ"
+  },
+  {
+    "id": 237,
+    "category": "learning",
+    "text": "npmパッケージを選ぶとき、GitHubのスター数だけじゃなく最終更新日とissueの対応速度もチェックしよう。メンテされてるかが重要。 #npm #学習"
+  },
+  {
+    "id": 238,
+    "category": "learning",
+    "text": "個人開発で完璧を求めすぎない。まず動くものを作って、少しずつ改善する。MVPの考え方はエンジニアにも大事。 #個人開発 #MVP"
+  },
+  {
+    "id": 239,
+    "category": "learning",
+    "text": "コードリーディングの力を鍛えよう。OSS のコードを読むと、プロの設計パターンが学べる。書くだけじゃなく読むのも大事。 #学習 #エンジニア"
+  },
+  {
+    "id": 240,
+    "category": "learning",
+    "text": "RLS（Row Level Security）は最初わかりにくいけど、一度理解するとデータアクセス制御が簡潔に書ける。Supabase使うなら必須知識。 #Supabase #RLS"
+  },
+  {
+    "id": 241,
+    "category": "learning",
+    "text": "ホットリロードの恩恵を感じるなら、ExpoとReact Nativeの組み合わせが最適。コード変更が即座に反映される開発体験は最高。 #Expo #ReactNative"
+  },
+  {
+    "id": 242,
+    "category": "learning",
+    "text": "技術ブログを続けるコツ：完璧な記事じゃなくていい。「今日学んだこと」レベルでも十分価値がある。ハードルを下げるのが継続のコツ。 #アウトプット #Zenn"
+  },
+  {
+    "id": 243,
+    "category": "learning",
+    "text": "Node.jsのバージョン管理はnvmかfnmを使おう。プロジェクトごとにバージョンが違うと詰むから、早めに覚えた方がいい。 #Nodejs #学習"
+  },
+  {
+    "id": 244,
+    "category": "learning",
+    "text": "HTTPステータスコードは200, 201, 400, 401, 403, 404, 500だけ覚えればOK。API開発で毎日使う知識。 #API #学習"
+  },
+  {
+    "id": 245,
+    "category": "learning",
+    "text": "マークダウンが書けるとエンジニアとしての発信力が上がる。READMEも技術記事もマークダウンで書く。覚えて損はない。 #Markdown #学習"
+  },
+  {
+    "id": 246,
+    "category": "learning",
+    "text": "デプロイの経験は早めに積んでおこう。ローカルで動くのと本番で動くのは別物。本番特有のトラブルに慣れておくと強い。 #デプロイ #学習"
+  },
+  {
+    "id": 247,
+    "category": "learning",
+    "text": "エラーを怖がらないで。エラーメッセージは敵じゃなく味方。「何が問題か」を教えてくれてる親切なガイド。 #学習 #デバッグ"
+  },
+  {
+    "id": 248,
+    "category": "learning",
+    "text": "Webの基礎を学ぶなら、まずブラウザのDevToolsを使いこなすこと。NetworkタブとConsoleタブは毎日使う。 #Web #学習"
+  },
+  {
+    "id": 249,
+    "category": "learning",
+    "text": "関数型プログラミングの基本（map, filter, reduce）は早めに習得しておこう。React開発でも頻出。配列操作が劇的に綺麗になる。 #JavaScript #学習"
+  },
+  {
+    "id": 250,
+    "category": "learning",
+    "text": "GitHubのプロフィールを充実させよう。ピン留めリポジトリ、草（コントリビューション）、README。これが第二の名刺になる。 #GitHub #キャリア"
+  },
+  {
+    "id": 251,
+    "category": "learning",
+    "text": "レスポンシブデザインを学ぶなら、モバイルファーストで考える習慣をつける。小さい画面から設計して広げる方が楽。 #UI #学習"
+  },
+  {
+    "id": 252,
+    "category": "learning",
+    "text": "バージョン管理なしの開発は、命綱なしのロッククライミング。Gitは最初に学ぶべきツールの一つ。 #Git #学習"
+  },
+  {
+    "id": 253,
+    "category": "learning",
+    "text": "OAuthの仕組みを理解しておくと、SNSログイン実装が怖くなくなる。Firebase AuthもSupabase Authも内部でOAuth使ってる。 #認証 #学習"
+  },
+  {
+    "id": 254,
+    "category": "learning",
+    "text": "アルゴリズムとデータ構造、実務でどこまで必要？基本的なソートと検索、配列とオブジェクトの操作ができればWeb開発は十分。 #学習 #プログラミング"
+  },
+  {
+    "id": 255,
+    "category": "learning",
+    "text": "CI/CDの概念は早めに学んでおこう。GitHub Actionsで自動テスト・自動デプロイの仕組みを作ると開発が快適になる。 #CICD #学習"
+  },
+  {
+    "id": 256,
+    "category": "learning",
+    "text": "コードの命名にこだわろう。変数名・関数名が適切だとコメントいらない。isLoading, handleSubmit, fetchUserDataみたいに意図が伝わる名前を。 #学習 #クリーンコード"
+  },
+  {
+    "id": 257,
+    "category": "learning",
+    "text": "デザインパターンを全部覚える必要はない。まずはSingletonとObserverだけ理解すればReact開発で困らない。 #デザインパターン #学習"
+  },
+  {
+    "id": 258,
+    "category": "learning",
+    "text": "セキュリティの基礎知識はフロントエンドでも必要。XSS、CSRF、SQLインジェクション。名前だけでも知っておこう。 #セキュリティ #学習"
+  },
+  {
+    "id": 259,
+    "category": "learning",
+    "text": "学んだことはZennやQiitaに書く。半年後の自分が読み返すメモとして最高に機能する。誰かの役にも立つおまけ付き。 #アウトプット #学習"
+  },
+  {
+    "id": 260,
+    "category": "learning",
+    "text": "Figmaの基本操作を覚えておくとエンジニアとして強い。デザイナーとの会話がスムーズになるし、個人開発のUI設計にも使える。 #Figma #学習"
+  },
+  {
+    "id": 261,
+    "category": "article",
+    "text": "Claude Codeの使い方をゼロから解説する記事を書きました！インストールから実際のコーディングまで、初心者向けにステップバイステップで紹介してます。\n\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage\n\n#ClaudeCode #AI開発"
+  },
+  {
+    "id": 262,
+    "category": "article",
+    "text": "「CLIって何？」から始める完全初心者向け解説記事。ターミナルの開き方からコマンドの基本まで、画像付きで丁寧に説明してます。\n\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it\n\n#CLI #初心者向け"
+  },
+  {
+    "id": 263,
+    "category": "article",
+    "text": "Claude CodeとGitを組み合わせると開発効率が爆上がりする話。具体的なコマンド例付きで解説してます。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git\n\n#ClaudeCode #Git"
+  },
+  {
+    "id": 264,
+    "category": "article",
+    "text": "MCPサーバーとClaude Codeの連携方法を記事にまとめました！外部ツールとの接続で可能性が無限に広がります。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp\n\n#ClaudeCode #MCP"
+  },
+  {
+    "id": 265,
+    "category": "article",
+    "text": "Claude CodeのPlan Mode、使いこなせてますか？大きな変更の前に計画を立てるテクニックを記事にしました。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode\n\n#ClaudeCode #開発Tips"
+  },
+  {
+    "id": 266,
+    "category": "article",
+    "text": "Claude Codeのインストール方法を完全ガイドとしてまとめました。環境構築で迷ってる人はこの記事を見れば5分で始められます。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup\n\n#ClaudeCode #環境構築"
+  },
+  {
+    "id": 267,
+    "category": "article",
+    "text": "Claude Codeの実践テクニック10選を記事にしました！毎日使ってるからこそわかるTipsを厳選。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips\n\n#ClaudeCode #AI開発"
+  },
+  {
+    "id": 268,
+    "category": "article",
+    "text": "Claude Code × VS Code連携の記事を公開！エディタとAIがシームレスに繋がる最高の開発環境を構築しよう。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode\n\n#ClaudeCode #VSCode"
+  },
+  {
+    "id": 269,
+    "category": "article",
+    "text": "CLAUDE.mdの書き方ガイドを公開しました。このファイル1つでAIの理解度が劇的に変わります。テンプレート付き。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory\n\n#ClaudeCode #CLAUDE_md"
+  },
+  {
+    "id": 270,
+    "category": "article",
+    "text": "「CLIがUIより優れている理由」を記事にまとめました。GUIに慣れてる人にこそ読んでほしい内容です。\n\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons\n\n#CLI #開発効率"
+  },
+  {
+    "id": 271,
+    "category": "article",
+    "text": "Claude Codeでデータ分析とグラフ作成をする方法を書きました。エンジニアじゃなくても使える実践テクニック。\n\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz\n\n#ClaudeCode #データ分析"
+  },
+  {
+    "id": 272,
+    "category": "article",
+    "text": "バグ修正を10倍速にするClaude Codeの使い方を記事にしました。エラーメッセージの渡し方一つで解決スピードが変わります。\n\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster\n\n#ClaudeCode #デバッグ"
+  },
+  {
+    "id": 273,
+    "category": "article",
+    "text": "Expoでスマホアプリを作る方法を初心者向けに解説しました！React Native未経験でもOK。\n\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app\n\n#Expo #ReactNative #スマホアプリ"
+  },
+  {
+    "id": 274,
+    "category": "article",
+    "text": "Node.jsとnpmのインストール方法を初心者向けに書きました。環境構築で挫折しないための完全ガイド。\n\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install\n\n#Nodejs #npm #環境構築"
+  },
+  {
+    "id": 275,
+    "category": "article",
+    "text": "30分でポートフォリオサイトを作る方法を書きました！Claude Codeを使えば未経験でもいける。\n\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min\n\n#ポートフォリオ #ClaudeCode"
+  },
+  {
+    "id": 276,
+    "category": "article",
+    "text": "Claude Codeでスクレイピングツールを作る方法を解説しました。データ収集を自動化したい人におすすめ。\n\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool\n\n#ClaudeCode #スクレイピング"
+  },
+  {
+    "id": 277,
+    "category": "article",
+    "text": "Supabaseでフルスタック開発する方法を記事にしました。認証からDB、リアルタイム通信まで全部カバー。\n\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack\n\n#Supabase #フルスタック"
+  },
+  {
+    "id": 278,
+    "category": "article",
+    "text": "プログラミング未経験からWebサービスを作るまでのロードマップを書きました。何から始めればいいか迷ってる人はぜひ。\n\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service\n\n#プログラミング学習 #Webサービス"
+  },
+  {
+    "id": 279,
+    "category": "article",
+    "text": "Claude Codeの入門記事、おかげさまで好評です！「わかりやすい」という声が嬉しい。まだ読んでない方はぜひ。\n\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage\n\n#ClaudeCode #Zenn"
+  },
+  {
+    "id": 280,
+    "category": "article",
+    "text": "CLIに苦手意識ある人、この記事で克服できますよ。黒い画面は怖くない。\n\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it\n\n#CLI #初心者"
+  },
+  {
+    "id": 281,
+    "category": "article",
+    "text": "Git操作をClaude Codeに任せる方法、想像以上に楽です。記事に具体例をたくさん載せました。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git\n\n#Git #ClaudeCode"
+  },
+  {
+    "id": 282,
+    "category": "article",
+    "text": "MCPサーバー連携の記事、実はClaude Codeの隠れた強力機能です。使いこなすとAI開発の幅が広がる。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp\n\n#MCP #ClaudeCode"
+  },
+  {
+    "id": 283,
+    "category": "article",
+    "text": "Plan Modeなしで大きな変更を始めるのは設計図なしで家を建てるようなもの。まずは計画から。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode\n\n#ClaudeCode"
+  },
+  {
+    "id": 284,
+    "category": "article",
+    "text": "Claude Codeを始めたい人、まずはこのセットアップ記事から。5分で環境構築完了します。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup\n\n#ClaudeCode #環境構築"
+  },
+  {
+    "id": 285,
+    "category": "article",
+    "text": "Claude Code使ってるけどイマイチ使いこなせてない人へ。実践テクニック10選で一気にレベルアップ。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips\n\n#ClaudeCode"
+  },
+  {
+    "id": 286,
+    "category": "article",
+    "text": "VS CodeユーザーならClaude Codeとの連携は必須。ターミナルから直接AIにコード書いてもらえる開発体験、最高ですよ。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode\n\n#VSCode #ClaudeCode"
+  },
+  {
+    "id": 287,
+    "category": "article",
+    "text": "CLAUDE.mdを書くか書かないかで、Claude Codeの出力品質が天と地ほど変わる。書き方のコツをまとめました。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory\n\n#ClaudeCode"
+  },
+  {
+    "id": 288,
+    "category": "article",
+    "text": "「GUIの方が直感的でしょ？」と思ってる人にこそ読んでほしい記事。CLIの真の実力を知ってほしい。\n\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons\n\n#CLI"
+  },
+  {
+    "id": 289,
+    "category": "article",
+    "text": "Excelやスプレッドシートで分析してる人、Claude Codeならもっと高度な分析ができます。グラフも自動生成。\n\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz\n\n#データ分析 #ClaudeCode"
+  },
+  {
+    "id": 290,
+    "category": "article",
+    "text": "「バグ修正に何時間もかかる」という悩み、Claude Codeで解決できるかも。デバッグ効率化の記事書きました。\n\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster\n\n#デバッグ #ClaudeCode"
+  },
+  {
+    "id": 291,
+    "category": "article",
+    "text": "スマホアプリ作りたいけどSwift/Kotlin難しそう...という人、Expoなら JavaScript で作れますよ。\n\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app\n\n#Expo #スマホアプリ開発"
+  },
+  {
+    "id": 292,
+    "category": "article",
+    "text": "プログラミング始める第一歩はNode.jsのインストール。つまずきやすいポイントを全部解説してます。\n\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install\n\n#Nodejs #初心者"
+  },
+  {
+    "id": 293,
+    "category": "article",
+    "text": "転職活動でポートフォリオがないと不利。でもClaude Codeなら30分で作れる。作り方を記事にしました。\n\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min\n\n#ポートフォリオ #転職"
+  },
+  {
+    "id": 294,
+    "category": "article",
+    "text": "Web上のデータを自動で集めたい？Claude Codeでスクレイピングツールを作る方法を解説してます。\n\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool\n\n#スクレイピング #自動化"
+  },
+  {
+    "id": 295,
+    "category": "article",
+    "text": "バックエンド開発を始めたいならSupabase一択。認証もDBもリアルタイムも全部入り。フルスタック開発の全体像を記事にしました。\n\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack\n\n#Supabase"
+  },
+  {
+    "id": 296,
+    "category": "article",
+    "text": "プログラミング未経験からWebサービスを公開するまでの道のりを記事にしました。夢じゃなくて現実的なロードマップです。\n\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service\n\n#プログラミング学習"
+  },
+  {
+    "id": 297,
+    "category": "article",
+    "text": "Claude Codeの基本操作を網羅した記事、ブックマーク推奨です。困ったときのリファレンスとしても使えます。\n\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage\n\n#ClaudeCode"
+  },
+  {
+    "id": 298,
+    "category": "article",
+    "text": "Claude Code × Git、実はめちゃくちゃ相性がいい。diffの確認からcommitメッセージの生成まで全部AIに任せられる。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git\n\n#Git #AI開発"
+  },
+  {
+    "id": 299,
+    "category": "article",
+    "text": "CLAUDE.mdの書き方一つでAIのパフォーマンスが激変する。テンプレートを公開してるので、コピペして使ってみて。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory\n\n#ClaudeCode"
+  },
+  {
+    "id": 300,
+    "category": "article",
+    "text": "CLIが怖いって思ってる人、この記事読めば5分で慣れます。黒い画面に向き合う第一歩を一緒に。\n\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it\n\n#CLI #プログラミング初心者"
+  },
+  {
+    "id": 301,
+    "category": "article",
+    "text": "VS Code使ってるエンジニアの皆さん、Claude Code連携でターミナルからAIにコード生成できるの知ってました？記事で詳しく解説してます。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode\n\n#VSCode #AI"
+  },
+  {
+    "id": 302,
+    "category": "article",
+    "text": "10倍速デバッグ、大げさじゃなくてマジです。Claude Codeにエラーを投げるだけで解決策が返ってくる。体験記を記事にしました。\n\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster\n\n#デバッグ"
+  },
+  {
+    "id": 303,
+    "category": "article",
+    "text": "Expoで初めてのスマホアプリ、作ってみませんか？この記事を読めば今日から始められます。\n\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app\n\n#Expo #モバイル開発"
+  },
+  {
+    "id": 304,
+    "category": "article",
+    "text": "Claude Codeのセットアップで困ってる人が多いみたいなので、トラブルシューティングも含めて記事にまとめました。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup\n\n#ClaudeCode"
+  },
+  {
+    "id": 305,
+    "category": "article",
+    "text": "Supabaseでフルスタック開発する全体像を把握したい人向けの記事。Firebase経験者なら移行もスムーズにできるはず。\n\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack\n\n#Supabase #Firebase"
+  },
+  {
+    "id": 306,
+    "category": "article",
+    "text": "データ分析をClaude Codeでやる記事、エンジニアだけじゃなくマーケターやPMにもおすすめです。コード書けなくても大丈夫。\n\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz\n\n#データ分析"
+  },
+  {
+    "id": 307,
+    "category": "article",
+    "text": "MCPでClaude Codeの機能を拡張する方法、知ってるだけで差がつきます。まだ日本語の解説記事少ないので書きました。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp\n\n#MCP #AI"
+  },
+  {
+    "id": 308,
+    "category": "article",
+    "text": "ポートフォリオを30分で作る方法、就活中のエンジニアに超おすすめです。Claude Codeがデザインからコーディングまでサポートしてくれます。\n\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min\n\n#就活"
+  },
+  {
+    "id": 309,
+    "category": "article",
+    "text": "未経験からWebサービスを作るロードマップ記事、「何から始めればいいかやっとわかった」という声をいただきました。\n\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service\n\n#Web開発"
+  },
+  {
+    "id": 310,
+    "category": "article",
+    "text": "スクレイピングツールをAIで作る記事。情報収集の自動化は副業やマーケティングにも活かせます。\n\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool\n\n#自動化 #ClaudeCode"
+  },
+  {
+    "id": 311,
+    "category": "article",
+    "text": "Claude Codeの実践テクニック10選、全部実際に使ってるものだけ厳選。理論じゃなくて実践から生まれたTips。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips\n\n#ClaudeCode"
+  },
+  {
+    "id": 312,
+    "category": "article",
+    "text": "Node.jsのインストールでつまずいた経験ある人、意外と多いはず。OS別に丁寧に解説してます。\n\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install\n\n#Nodejs #環境構築"
+  },
+  {
+    "id": 313,
+    "category": "article",
+    "text": "Plan Modeの活用術、大規模な機能追加やリファクタリングの前に読んでおくと手戻りが減ります。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode\n\n#ClaudeCode #設計"
+  },
+  {
+    "id": 314,
+    "category": "article",
+    "text": "CLIがGUIより優れてる理由を論理的にまとめました。CLIアレルギーの人の意識が変わる記事だと自負してます。\n\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons\n\n#CLI #開発環境"
+  },
+  {
+    "id": 315,
+    "category": "article",
+    "text": "Zennで書いてるClaude Code記事シリーズ、セットアップから実践テクニックまで体系的にまとめてます。まとめ読みおすすめ。\n\nhttps://zenn.dev/rcn_article\n\n#ClaudeCode #Zenn"
+  },
+  {
+    "id": 316,
+    "category": "article",
+    "text": "Claude Code入門記事、初めてAI開発ツールを使う人に最適な内容です。「AIでコード書くってこういうことか」がわかります。\n\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage\n\n#AI開発 #入門"
+  },
+  {
+    "id": 317,
+    "category": "article",
+    "text": "Git初心者がClaude Codeと組み合わせて使うと、バージョン管理の学習曲線がめっちゃ緩やかになる。実体験を記事にしました。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git\n\n#Git #初心者"
+  },
+  {
+    "id": 318,
+    "category": "article",
+    "text": "CLAUDE.mdを書くのに5分もかからないのに、開発効率が何倍にもなる。コスパ最強の投資。書き方はこちらの記事で。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory\n\n#ClaudeCode"
+  },
+  {
+    "id": 319,
+    "category": "article",
+    "text": "スマホアプリ開発のハードルを下げたくてExpoの記事を書きました。JavaScriptだけで iOS/Android アプリが作れる時代。\n\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app\n\n#Expo"
+  },
+  {
+    "id": 320,
+    "category": "article",
+    "text": "Supabaseの全体像がわかる記事。これ1つ読めば、認証・DB・ストレージ・リアルタイムの使い方がわかります。\n\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack\n\n#Supabase"
+  },
+  {
+    "id": 321,
+    "category": "article",
+    "text": "バグ修正で一番大事なのは「エラーメッセージの読み方」。それをClaude Codeと組み合わせる方法を解説。\n\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster\n\n#デバッグ #エンジニア"
+  },
+  {
+    "id": 322,
+    "category": "article",
+    "text": "ポートフォリオ作成記事、読んだ人から「本当に30分でできた！」とDMもらいました。嬉しい。\n\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min\n\n#ポートフォリオ"
+  },
+  {
+    "id": 323,
+    "category": "article",
+    "text": "Claude Code × VS Code連携は現代の最強開発環境の一つだと思ってる。まだ試してない人は記事を参考にセットアップしてみて。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode\n\n#開発環境"
+  },
+  {
+    "id": 324,
+    "category": "article",
+    "text": "スクレイピングツールの記事、意外とマーケター界隈からも反応がありました。技術記事の読者層は思ったより広い。\n\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool\n\n#スクレイピング"
+  },
+  {
+    "id": 325,
+    "category": "article",
+    "text": "未経験からWebサービス公開まで。この記事がエンジニアを目指す誰かの背中を押せたら嬉しいです。\n\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service\n\n#エンジニア転職"
+  },
+  {
+    "id": 326,
+    "category": "article",
+    "text": "Node.jsの記事、プログラミング完全初心者の友人に試してもらって書いたので、本当に初心者目線です。\n\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install\n\n#プログラミング入門"
+  },
+  {
+    "id": 327,
+    "category": "article",
+    "text": "MCPサーバー連携、まだ情報が少ない分野だからこそ記事にする価値がある。先行者利益を取りに行こう。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp\n\n#MCP #AI開発"
+  },
+  {
+    "id": 328,
+    "category": "article",
+    "text": "データ分析の記事、PythonじゃなくてClaude Codeでやるアプローチが新鮮だと好評でした。\n\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz\n\n#データ分析 #AI"
+  },
+  {
+    "id": 329,
+    "category": "article",
+    "text": "Claude Codeの実力を知りたいなら、まずこのインストール記事から始めて実際に触ってみてください。百聞は一見にしかず。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup\n\n#ClaudeCode"
+  },
+  {
+    "id": 330,
+    "category": "article",
+    "text": "Claude Codeのテクニック記事、1つでも「知らなかった！」があれば書いた甲斐があります。読んでみてください。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips\n\n#AI開発"
+  },
+  {
+    "id": 331,
+    "category": "article",
+    "text": "Plan Modeの記事を読んだ人から「手戻りが減った」と報告いただきました。大きな変更前に計画を立てるだけで効果が出る。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode\n\n#ClaudeCode"
+  },
+  {
+    "id": 332,
+    "category": "article",
+    "text": "CLIの記事、エンジニアだけじゃなくデザイナーやPMにも読んでほしい。ターミナル操作の基礎はIT業界全体で役立つ。\n\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it\n\n#CLI #IT"
+  },
+  {
+    "id": 333,
+    "category": "article",
+    "text": "Expo記事のスマホアプリ開発入門、「思ったより簡単にできた」という感想が多くて嬉しい。技術のハードルを下げるのが僕の記事の目標。\n\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app\n\n#Expo"
+  },
+  {
+    "id": 334,
+    "category": "article",
+    "text": "Supabaseフルスタック記事、Firebaseとの違いもわかるように書いてます。乗り換え検討中の人にもおすすめ。\n\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack\n\n#Supabase"
+  },
+  {
+    "id": 335,
+    "category": "article",
+    "text": "CLIとGUI、どっちが優れてる？この記事を読めば答えが見つかります。データと実体験で語ってます。\n\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons\n\n#CLI #開発効率"
+  },
+  {
+    "id": 336,
+    "category": "article",
+    "text": "Claude Codeの記事シリーズ、セットアップ→基本操作→Tips→Git連携→MCP→Plan Modeの順で読むのがおすすめです。\n\nhttps://zenn.dev/rcn_article\n\n#ClaudeCode #Zenn"
+  },
+  {
+    "id": 337,
+    "category": "article",
+    "text": "CLAUDE.md書いてないClaude Codeユーザー、損してます。5分で書けるのに効果が絶大。書き方ガイドはこちら。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory\n\n#ClaudeCode"
+  },
+  {
+    "id": 338,
+    "category": "article",
+    "text": "デバッグ記事の反響が大きい。みんなバグ修正で苦労してるんだなと実感。Claude Codeで楽になれるよ。\n\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster\n\n#デバッグ"
+  },
+  {
+    "id": 339,
+    "category": "article",
+    "text": "ポートフォリオを「作ろう作ろう」と思って後回しにしてる人、この記事読んで今日作ってしまおう。30分で終わるから。\n\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min\n\n#行動力"
+  },
+  {
+    "id": 340,
+    "category": "article",
+    "text": "VS Code × Claude Code、この組み合わせを知ってからエディタを離れなくなりました。開発がターミナル完結する快感。\n\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode\n\n#開発体験"
+  },
+  {
+    "id": 341,
+    "category": "devlog",
+    "text": "今日の開発：そだてるアプリのワクチンスケジュール画面を実装中。子どもの誕生日から接種時期を自動計算するロジック、Claude Codeと一緒に作ったら30分で完成。 #個人開発 #育児アプリ"
+  },
+  {
+    "id": 342,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのチャット機能、Supabase Realtimeで実装中。リアルタイム通信ってワクワクする。メッセージが即座に表示される瞬間が好き。 #個人開発 #Supabase"
+  },
+  {
+    "id": 343,
+    "category": "devlog",
+    "text": "今日のバグ：Firestoreのクエリでインデックス未作成エラー。Claude Codeにエラーメッセージ貼ったら1分で原因特定。インデックス作成のURLまで教えてくれた。 #開発日記 #Firebase"
+  },
+  {
+    "id": 344,
+    "category": "devlog",
+    "text": "そだてるアプリの発達マイルストーン機能を実装中。0〜6歳の月齢ごとの発達段階データ、手動で作ると大変だけどデータ構造の設計が楽しい。 #個人開発 #ReactNative"
+  },
+  {
+    "id": 345,
+    "category": "devlog",
+    "text": "今日はLocal Friend for a Dayのホスト画面を6画面一気に作った。Claude Codeのおかげで1日で6画面はさすがに快感。 #開発日記 #Expo"
+  },
+  {
+    "id": 346,
+    "category": "devlog",
+    "text": "2つのアプリを交互に開発してると、頭の切り替えが大変。でもCLAUDE.mdのおかげでプロジェクトのコンテキストをAIが覚えてくれるから楽。 #個人開発 #ClaudeCode"
+  },
+  {
+    "id": 347,
+    "category": "devlog",
+    "text": "そだてるアプリにZustandのストアを追加。authStoreとchildStoreの設計をClaude Codeに相談しながら決めた。壁打ち相手として優秀。 #開発日記 #Zustand"
+  },
+  {
+    "id": 348,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのプロフィール画面、NativeWindでスタイリングしたらかなりいい感じに。Tailwindの知識がそのまま使えるのが楽。 #開発日記 #NativeWind"
+  },
+  {
+    "id": 349,
+    "category": "devlog",
+    "text": "今日の成果：SupabaseのRLSポリシーを全テーブルに設定完了。セキュリティは最初からちゃんとやっておかないと後で地獄を見る。 #開発日記 #Supabase"
+  },
+  {
+    "id": 350,
+    "category": "devlog",
+    "text": "そだてるアプリのFirebase Authentication実装完了。メール/パスワードとGoogleログイン。Claude Codeに手伝ってもらいながら半日で終わった。 #開発日記 #Firebase"
+  },
+  {
+    "id": 351,
+    "category": "devlog",
+    "text": "今週の開発まとめ：そだてるアプリ3画面、Local Friend2画面追加。2つ同時開発は大変だけど充実感がすごい。 #週報 #個人開発"
+  },
+  {
+    "id": 352,
+    "category": "devlog",
+    "text": "Local Friend for a Dayの予約機能実装中。bookingsテーブルのステータス遷移（pending→confirmed→completed）の設計が地味に難しい。 #開発日記"
+  },
+  {
+    "id": 353,
+    "category": "devlog",
+    "text": "そだてるアプリのコミュニティ機能、投稿一覧をFlatListで実装。無限スクロールとpull-to-refreshもClaude Codeに頼んで一発。 #開発日記 #ReactNative"
+  },
+  {
+    "id": 354,
+    "category": "devlog",
+    "text": "今日のハマりポイント：React Navigationの型定義でエラー。v7のStackNavigatorの型が変わってた。Claude Codeが公式ドキュメントベースで解決してくれた。 #開発日記"
+  },
+  {
+    "id": 355,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのゲスト側画面、検索フィルター機能を追加。エリア・日程・言語で絞り込み。Supabaseのクエリビルダーが使いやすい。 #開発日記 #Supabase"
+  },
+  {
+    "id": 356,
+    "category": "devlog",
+    "text": "今日の開発はZenn記事の執筆。Claude Codeの使い方を初心者向けに解説する記事。自分の経験を言語化すると学びが深まる。 #アウトプット #Zenn"
+  },
+  {
+    "id": 357,
+    "category": "devlog",
+    "text": "そだてるアプリの画面数が24に到達。機能ごとにディレクトリ分けしてるから管理しやすい。auth/home/child/vaccine/milestone/community/feed。 #開発日記"
+  },
+  {
+    "id": 358,
+    "category": "devlog",
+    "text": "今日はテスト書く日にした。Firebase のモック（src/__mocks__/firebase/）を使ってユニットテスト追加。テスト書くの面倒だけど安心感が違う。 #開発日記 #テスト"
+  },
+  {
+    "id": 359,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのレビュー機能実装。星5段階評価＋テキストレビュー。UIはシンプルだけどバックエンドの集計ロジックが意外と面倒。 #開発日記"
+  },
+  {
+    "id": 360,
+    "category": "devlog",
+    "text": "朝6時から開発してた。フリーランスの良いところは自分のプロダクトに時間を使える自由があること。クライアントワークの合間に自分のアプリを育てる。 #フリーランス #個人開発"
+  },
+  {
+    "id": 361,
+    "category": "devlog",
+    "text": "そだてるアプリのデモモード実装中。Firebase呼び出しをモックデータに差し替える仕組み。デモ用のフラグ1つで切り替えられるように設計。 #開発日記"
+  },
+  {
+    "id": 362,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのdatabase.tsを再生成した。npx supabase gen types typescriptでスキーマから型が自動生成される。型安全最高。 #開発日記 #TypeScript"
+  },
+  {
+    "id": 363,
+    "category": "devlog",
+    "text": "今日はリファクタリングday。Claude Codeに「コードの重複を見つけて」と頼んだら5箇所指摘してくれた。共通コンポーネントに切り出し完了。 #開発日記 #ClaudeCode"
+  },
+  {
+    "id": 364,
+    "category": "devlog",
+    "text": "2つのプロジェクトでExpoのバージョンが違う（54と55）。それぞれのCLAUDE.mdにバージョン情報書いてあるからAIが混同しない。仕組み化大事。 #開発日記"
+  },
+  {
+    "id": 365,
+    "category": "devlog",
+    "text": "そだてるアプリの月齢計算ユーティリティ（ageCalculator.ts）が地味に重要。「1歳3ヶ月」みたいな表示、日本の育児文化特有の表記。 #開発日記 #育児アプリ"
+  },
+  {
+    "id": 366,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのメッセージ機能、Supabase Realtimeのサブスクリプションで既読管理も実装した。チャットUXはやっぱり奥が深い。 #開発日記"
+  },
+  {
+    "id": 367,
+    "category": "devlog",
+    "text": "今日の学び：React QueryのstaleTimeとcachTimeの違いをやっと理解した。Claude Codeに説明してもらったら一瞬で腹落ち。 #開発日記 #ReactQuery"
+  },
+  {
+    "id": 368,
+    "category": "devlog",
+    "text": "そだてるアプリのフィード画面、TanStack React QueryでFirestoreデータをラップ。キャッシュが効くから画面遷移がサクサク。 #開発日記"
+  },
+  {
+    "id": 369,
+    "category": "devlog",
+    "text": "今日はDBのマイグレーションファイル作成。Claude Codeにテーブル構成を説明したらSQLを書いてくれて、RLSポリシーまで提案してくれた。有能すぎ。 #開発日記"
+  },
+  {
+    "id": 370,
+    "category": "devlog",
+    "text": "アプリアイコンとスプラッシュスクリーンを作った。開発の息抜きにデザイン作業するのも楽しい。見た目が整うとモチベ上がる。 #開発日記 #デザイン"
+  },
+  {
+    "id": 371,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのavailabilityテーブルの設計を見直した。ホストの空き状況管理、カレンダーUIと連動させるのが意外と複雑。 #開発日記"
+  },
+  {
+    "id": 372,
+    "category": "devlog",
+    "text": "今日は両アプリのlint errorをゼロにした。npm run lint:fixで自動修正→残りを手動修正。コード品質を保つ習慣、大事。 #開発日記 #ESLint"
+  },
+  {
+    "id": 373,
+    "category": "devlog",
+    "text": "そだてるアプリのワクチンデータ（vaccines.ts）、日本の定期接種スケジュールに基づいて整理中。医療系データは正確さが命。慎重に。 #開発日記"
+  },
+  {
+    "id": 374,
+    "category": "devlog",
+    "text": "今日の進捗：Local Friend for a DayのCONCEPT.mdとREQUIREMENTS.mdを更新。仕様をドキュメントに残しておくと後から見返せて便利。 #開発日記"
+  },
+  {
+    "id": 375,
+    "category": "devlog",
+    "text": "2つのアプリ、どちらもExpo + TypeScript + Zustandという共通構成。学びが両方に活かせるのが同時開発の良いところ。 #開発日記 #Expo"
+  },
+  {
+    "id": 376,
+    "category": "devlog",
+    "text": "今日はtypecheckで10個のエラーが出た。Claude Codeに「型エラー全部直して」と言ったら5分で解決。手動だと30分以上かかるやつ。 #開発日記 #TypeScript"
+  },
+  {
+    "id": 377,
+    "category": "devlog",
+    "text": "そだてるアプリの3層ナビゲーション構造（Root→Auth/Main→各タブ）がようやく安定した。ナビゲーション設計は最初に時間かけるべき。 #開発日記 #ReactNavigation"
+  },
+  {
+    "id": 378,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのプラン作成画面を実装。ホストがツアープランを登録するUI。写真アップロードはSupabase Storageで。 #開発日記"
+  },
+  {
+    "id": 379,
+    "category": "devlog",
+    "text": "今日は久しぶりにコードを書かずに設計だけの日。新機能の画面遷移図とデータフローを紙に描いた。こういう時間も大事。 #開発日記 #設計"
+  },
+  {
+    "id": 380,
+    "category": "devlog",
+    "text": "2アプリ同時開発を始めて3ヶ月。最初は無理かと思ったけど、Claude Codeのおかげでなんとか回ってる。AIパートナーに感謝。 #個人開発 #ClaudeCode"
+  },
+  {
+    "id": 381,
+    "category": "devlog",
+    "text": "そだてるアプリのホーム画面、子どもの月齢に応じたコンテンツを動的に表示する機能を追加。パーソナライズされた育児情報って大事。 #開発日記"
+  },
+  {
+    "id": 382,
+    "category": "devlog",
+    "text": "Local Friend for a Day、RootNavigatorでauthStoreのロール判定してGuestNavigator/HostNavigator切り替え。ロールベースナビゲーション実装完了。 #開発日記"
+  },
+  {
+    "id": 383,
+    "category": "devlog",
+    "text": "今日はPROGRESS.mdの更新日。完了したタスクにチェックを入れる瞬間が一番気持ちいい。地道に進めてる。 #開発日記 #進捗管理"
+  },
+  {
+    "id": 384,
+    "category": "devlog",
+    "text": "フリーランスのクライアント案件の合間に自分のアプリを進める日々。忙しいけど「自分のプロダクトがある」というモチベーションは大きい。 #フリーランス #個人開発"
+  },
+  {
+    "id": 385,
+    "category": "devlog",
+    "text": "そだてるアプリのFirebase Storage連携、子どもの写真アップロード機能を実装中。プライバシーに配慮したセキュリティルールも同時に設定。 #開発日記 #Firebase"
+  },
+  {
+    "id": 386,
+    "category": "devlog",
+    "text": "2つのアプリのpackage.jsonを比較すると、共通の依存関係が多い。Expo, React Navigation, Zustand, TypeScript。スキルが使い回せるの効率的。 #開発日記"
+  },
+  {
+    "id": 387,
+    "category": "devlog",
+    "text": "今日の成果物：Zennの新しい記事の下書き完成。Claude Codeの実践テクニックを10個厳選。来週公開予定。 #Zenn #アウトプット"
+  },
+  {
+    "id": 388,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのレビュー一覧画面、星の平均値をリアルタイムで計算する処理。Supabaseのビュー使うかアプリ側で計算するか迷った末にビューに。 #開発日記"
+  },
+  {
+    "id": 389,
+    "category": "devlog",
+    "text": "そだてるアプリにダークモード対応を追加しようか検討中。NativeWindならclassName切り替えだけでいけるから実装コストは低い。 #開発日記 #NativeWind"
+  },
+  {
+    "id": 390,
+    "category": "devlog",
+    "text": "開発中に気づいた。Claude Codeに「今日何やったかまとめて」と頼むとgit logから開発日記を自動生成してくれる。便利すぎて笑った。 #開発日記 #ClaudeCode"
+  },
+  {
+    "id": 391,
+    "category": "devlog",
+    "text": "今日はLocal Friend for a Dayの画面遷移テスト。全24画面を手動で巡回して動作確認。地味だけど品質に直結する作業。 #開発日記 #テスト"
+  },
+  {
+    "id": 392,
+    "category": "devlog",
+    "text": "そだてるアプリのmilestoneEvaluator.ts、発達マイルストーンの評価ロジックが想像以上に複雑。月齢ごとの基準値の設定が難しい。でも大事な機能。 #開発日記"
+  },
+  {
+    "id": 393,
+    "category": "devlog",
+    "text": "2つのアプリの開発を並行してると、一方で学んだことが他方に活きる場面が多い。SupabaseのRLSの知識がFirestoreのルール設計にも役立つとか。 #開発日記"
+  },
+  {
+    "id": 394,
+    "category": "devlog",
+    "text": "今日はnpm run typecheckが全ファイル通った。strict: trueでエラーゼロは達成感がある。型安全なコードベースは精神的にも安心。 #開発日記 #TypeScript"
+  },
+  {
+    "id": 395,
+    "category": "devlog",
+    "text": "Local Friend for a DayのStripe Connect統合を調査中。ホストへの支払い処理は慎重にやらないと。決済周りは失敗できない。 #開発日記 #Stripe"
+  },
+  {
+    "id": 396,
+    "category": "devlog",
+    "text": "今日の小さな勝利：そだてるアプリのビルドがExpo Goで一発成功。ネイティブモジュール周りのエラーが出なくなった。快適。 #開発日記 #Expo"
+  },
+  {
+    "id": 397,
+    "category": "devlog",
+    "text": "週末は両アプリのREADMEを整備した。将来OSSにするかもしれないし、ドキュメントは早めに書いておく主義。 #開発日記 #ドキュメント"
+  },
+  {
+    "id": 398,
+    "category": "devlog",
+    "text": "そだてるアプリのchildStoreにselectedChildを追加。複数の子どもを登録できる設計にしたから、どの子のデータを表示するか切り替えが必要。 #開発日記 #Zustand"
+  },
+  {
+    "id": 399,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのプラン一覧画面のパフォーマンス改善。FlatListのrenderItemをReact.memoで最適化。体感で明らかに速くなった。 #開発日記 #パフォーマンス"
+  },
+  {
+    "id": 400,
+    "category": "devlog",
+    "text": "今月の開発振り返り：そだてる12画面、Local Friend8画面追加。計40画面超え。来月リリースに向けて追い込み。 #月報 #個人開発"
+  },
+  {
+    "id": 401,
+    "category": "industry",
+    "text": "フリーランスITコンサルとして感じること：クライアントが求めてるのは技術力だけじゃなくて「何が最適か」を判断できる力。技術は手段でしかない。 #フリーランス #ITコンサル"
+  },
+  {
+    "id": 402,
+    "category": "industry",
+    "text": "2026年のモバイルアプリ開発、クロスプラットフォームが完全に主流になった。React Native/FlutterでiOS/Android同時開発が当たり前の時代。 #モバイル開発 #トレンド"
+  },
+  {
+    "id": 403,
+    "category": "industry",
+    "text": "Supabase vs Firebase、どちらもいいけど使い分けが大事。小規模で素早くならFirebase、SQLの力が必要ならSupabase。プロジェクト次第。 #Supabase #Firebase"
+  },
+  {
+    "id": 404,
+    "category": "industry",
+    "text": "フリーランスエンジニアの最大の資産は信頼。技術力は前提として、納期を守る、コミュニケーションが丁寧、レスポンスが早い。この3つが揃えば仕事は途切れない。 #フリーランス"
+  },
+  {
+    "id": 405,
+    "category": "industry",
+    "text": "BaaS（Backend as a Service）の進化がすごい。Firebase、Supabase、Appwrite。バックエンドを自前で構築する時代は終わりつつある。 #BaaS #トレンド"
+  },
+  {
+    "id": 406,
+    "category": "industry",
+    "text": "AIコーディングツール市場、Claude Code以外にもCopilot、Cursor、v0など群雄割拠。競争があるからこそ品質が上がる。ユーザーとしては嬉しい限り。 #AI開発 #トレンド"
+  },
+  {
+    "id": 407,
+    "category": "industry",
+    "text": "フリーランスの営業は「実績」が最強の武器。自分のアプリを公開してるだけで「この人は実際に作れる人」と信頼される。個人開発は最高の営業ツール。 #フリーランス"
+  },
+  {
+    "id": 408,
+    "category": "industry",
+    "text": "TypeScriptの採用率が年々上がってる。新規プロジェクトでJavaScriptをあえて選ぶ理由がほぼない。型安全は開発効率に直結する。 #TypeScript #トレンド"
+  },
+  {
+    "id": 409,
+    "category": "industry",
+    "text": "リモートワーク×フリーランス×AI。この3つが揃った2026年は、エンジニアにとって史上最高に自由な時代かもしれない。 #フリーランス #リモートワーク"
+  },
+  {
+    "id": 410,
+    "category": "industry",
+    "text": "Expoのバージョンアップが速い。毎回新機能が追加されてReact Nativeのエコシステムが充実していく。Expo Goの手軽さは初心者の味方。 #Expo #ReactNative"
+  },
+  {
+    "id": 411,
+    "category": "industry",
+    "text": "IT業界のトレンド：フロントエンドとバックエンドの境界がどんどん曖昧に。フルスタックエンジニアの需要は増え続ける。 #フルスタック #トレンド"
+  },
+  {
+    "id": 412,
+    "category": "industry",
+    "text": "コンサルティングの仕事で痛感するのは、技術選定の重要さ。間違った技術を選ぶと、後からのリカバリーコストが膨大になる。 #ITコンサル #技術選定"
+  },
+  {
+    "id": 413,
+    "category": "industry",
+    "text": "日本のIT業界、SES依存から脱却する流れが加速してる。自社開発、フリーランス、スタートアップと選択肢が増えてるのは良い傾向。 #IT業界 #キャリア"
+  },
+  {
+    "id": 414,
+    "category": "industry",
+    "text": "MCPプロトコルの普及が始まってる。AIと外部ツールの連携が標準化されると、開発の自動化がさらに進む。注目すべき技術。 #MCP #AI"
+  },
+  {
+    "id": 415,
+    "category": "industry",
+    "text": "フリーランスの確定申告、会計ソフト＋AIで楽になった。経費の仕分けとか、AIに聞きながらやると迷わない。テクノロジーは味方。 #フリーランス #確定申告"
+  },
+  {
+    "id": 416,
+    "category": "industry",
+    "text": "React Server Componentsの流れ、モバイルアプリにも影響が出てくるかも。Webとモバイルの技術的な融合が進んでいる。 #React #トレンド"
+  },
+  {
+    "id": 417,
+    "category": "industry",
+    "text": "ITコンサルとして大事にしてること：クライアントの技術的な課題を、非技術者にもわかる言葉で説明すること。橋渡し役としての価値。 #ITコンサル"
+  },
+  {
+    "id": 418,
+    "category": "industry",
+    "text": "Zustandの人気が急上昇中。Reduxの複雑さに疲れた人たちが流れてきてる。シンプルさは正義。 #Zustand #状態管理"
+  },
+  {
+    "id": 419,
+    "category": "industry",
+    "text": "スタートアップのMVP開発にExpo + Supabase + Claude Codeの組み合わせが最適解な気がする。速さとコストのバランスが抜群。 #スタートアップ #MVP"
+  },
+  {
+    "id": 420,
+    "category": "industry",
+    "text": "フリーランスの仕事の取り方、2026年はSNSとブログ発信がかなり効く。技術記事を書いてるだけで声がかかることがある。 #フリーランス #営業"
+  },
+  {
+    "id": 421,
+    "category": "industry",
+    "text": "Edge Computingが当たり前になると、Supabase Edge FunctionsやCloudflare Workersの需要がもっと増える。サーバーレスの次の波。 #EdgeComputing"
+  },
+  {
+    "id": 422,
+    "category": "industry",
+    "text": "日本の観光業×テクノロジーにチャンスを感じてLocal Friendを作ってる。インバウンド需要は回復してるし、地方創生にも繋がる分野。 #観光テック #スタートアップ"
+  },
+  {
+    "id": 423,
+    "category": "industry",
+    "text": "フリーランスエンジニアにとって「持ち帰り案件」が増えてるのは良い傾向。常駐じゃなくてもリモートで成果を出せる時代。 #フリーランス #リモート"
+  },
+  {
+    "id": 424,
+    "category": "industry",
+    "text": "NativeWindの登場でReact NativeのスタイリングがTailwindベースに。WebとモバイルでCSS知識を共有できるのは効率的。 #NativeWind #Tailwind"
+  },
+  {
+    "id": 425,
+    "category": "industry",
+    "text": "IT業界の採用トレンド：ポートフォリオ>学歴。実際に動くアプリを見せる方が、資格の羅列よりインパクトがある。 #採用 #キャリア"
+  },
+  {
+    "id": 426,
+    "category": "industry",
+    "text": "育児×テクノロジーの市場、日本ではまだまだ伸びしろがある。そだてるアプリで保護者の負担を少しでも減らしたい。 #育児テック"
+  },
+  {
+    "id": 427,
+    "category": "industry",
+    "text": "React Navigation v7、かなり改善されてる。型安全なナビゲーションが簡単に実装できるようになった。もうv6には戻れない。 #ReactNavigation"
+  },
+  {
+    "id": 428,
+    "category": "industry",
+    "text": "フリーランスエンジニアの差別化ポイント：技術力＋ドメイン知識。特定の業界に詳しいエンジニアは希少価値が高い。 #フリーランス #キャリア"
+  },
+  {
+    "id": 429,
+    "category": "industry",
+    "text": "TanStack React Queryがデータフェッチの標準になりつつある。SWRも良いけど、機能の豊富さではReact Queryに軍配。 #ReactQuery #トレンド"
+  },
+  {
+    "id": 430,
+    "category": "industry",
+    "text": "コンサルティングで気づいたこと：多くの企業がDXを進めたいけど何から始めればいいかわからない。技術者の「翻訳力」が求められてる。 #DX #ITコンサル"
+  },
+  {
+    "id": 431,
+    "category": "industry",
+    "text": "Stripe Connectの導入が簡単になってる。マーケットプレイス型アプリの決済実装、昔に比べたらハードルがかなり低い。 #Stripe #決済"
+  },
+  {
+    "id": 432,
+    "category": "industry",
+    "text": "技術記事プラットフォーム、Zennが使いやすい。マークダウンで書けるし、UIがシンプル。日本のエンジニア向け発信なら最適。 #Zenn #アウトプット"
+  },
+  {
+    "id": 433,
+    "category": "industry",
+    "text": "フリーランスの健康保険と年金、ちゃんと考えてる？iDeCoとNISAの活用、エンジニアなら数字に強いはず。自分の将来も最適化しよう。 #フリーランス #資産形成"
+  },
+  {
+    "id": 434,
+    "category": "industry",
+    "text": "Expo SDK 55のリリース、React Native 0.83対応。New Architecture完全対応で性能が向上。アップグレードは計画的に。 #Expo #ReactNative"
+  },
+  {
+    "id": 435,
+    "category": "industry",
+    "text": "地方在住エンジニアのメリット：生活コストが低い、リモートで都市部の案件が取れる、集中して開発できる環境。地方×フリーランスは合理的。 #フリーランス #地方"
+  },
+  {
+    "id": 436,
+    "category": "industry",
+    "text": "Supabaseのリアルタイム機能が進化し続けてる。Presence、Broadcast、PostgreSQL Changes。リアルタイムアプリの選択肢として有力。 #Supabase"
+  },
+  {
+    "id": 437,
+    "category": "industry",
+    "text": "フリーランスとして独立して良かったこと：自分の時間をコントロールできる。朝型開発もできるし、平日に休むこともできる。 #フリーランス #働き方"
+  },
+  {
+    "id": 438,
+    "category": "industry",
+    "text": "2026年、ノーコード/ローコードとAIコーディングの境界が曖昧に。でもプロのエンジニアはまだまだ必要。複雑な要件はコードで解決する場面が多い。 #ノーコード #AI"
+  },
+  {
+    "id": 439,
+    "category": "industry",
+    "text": "クライアントとの見積もりでAI活用による工数削減を提案すると喜ばれる。開発コストが下がるのはクライアントにとってもメリット。 #ITコンサル #AI"
+  },
+  {
+    "id": 440,
+    "category": "industry",
+    "text": "日本のモバイルアプリ市場、まだまだガラパゴスな部分がある。日本特有のUXやデータ形式に対応できるのは日本人エンジニアの強み。 #モバイル開発 #日本市場"
+  },
+  {
+    "id": 441,
+    "category": "industry",
+    "text": "Firebaseの料金体系、小規模なら無料枠でいけるけどスケールすると結構かかる。Supabaseの方が料金予測しやすい印象。 #Firebase #Supabase"
+  },
+  {
+    "id": 442,
+    "category": "industry",
+    "text": "テクニカルライティング力、エンジニアの必須スキルに入れるべき。コードだけじゃなくドキュメントも書ける人が求められてる。 #テクニカルライティング"
+  },
+  {
+    "id": 443,
+    "category": "industry",
+    "text": "Expo EASのビルドサービス、CI/CDがめちゃ楽になった。ローカルでビルドしなくてもクラウドでiOS/Androidのバイナリが作れる。 #Expo #EAS"
+  },
+  {
+    "id": 444,
+    "category": "industry",
+    "text": "フリーランスエンジニアの学習投資、税金の経費になる場合がある。技術書、オンラインコース、AI開発ツールの月額。経費計上忘れずに。 #フリーランス #節税"
+  },
+  {
+    "id": 445,
+    "category": "industry",
+    "text": "インバウンド観光客の増加と地方創生の課題。テクノロジーで解決できるポイントがたくさんある。Local Friendはその挑戦の一つ。 #観光 #地方創生"
+  },
+  {
+    "id": 446,
+    "category": "industry",
+    "text": "Webアプリ vs ネイティブアプリの議論、2026年の答えは「用途次第」。オフライン対応やカメラ連携ならネイティブ、情報閲覧メインならWebでOK。 #Web #モバイル"
+  },
+  {
+    "id": 447,
+    "category": "industry",
+    "text": "エンジニアのメンタルヘルス、もっと注目されるべき。デバッグで何時間も詰まるとストレスやばい。適度に休んで、AIにも頼ろう。 #エンジニア #メンタルヘルス"
+  },
+  {
+    "id": 448,
+    "category": "industry",
+    "text": "日本語でAI開発の情報発信する人がもっと増えてほしい。英語の情報は多いけど、日本語の実践的な記事はまだ足りない。 #AI開発 #日本語"
+  },
+  {
+    "id": 449,
+    "category": "industry",
+    "text": "フリーランスエンジニアの契約形態、準委任と請負の違いは理解しておくべき。トラブルの元になるから。 #フリーランス #契約"
+  },
+  {
+    "id": 450,
+    "category": "industry",
+    "text": "プロダクト開発で忘れがちだけど、ドメイン名とアプリ名の商標確認は早めにやるべき。後から変えるのは大変。 #スタートアップ #プロダクト"
+  },
+  {
+    "id": 451,
+    "category": "industry",
+    "text": "2026年のフロントエンド、フレームワーク疲れが落ち着いてきた感ある。React/Next.js、Vue/Nuxt、Svelteの3強で安定してる印象。 #フロントエンド #トレンド"
+  },
+  {
+    "id": 452,
+    "category": "industry",
+    "text": "コンサルの仕事で学んだこと：技術的に正しいことが、ビジネス的に正しいとは限らない。技術とビジネスの両方を見れるエンジニアが最強。 #ITコンサル"
+  },
+  {
+    "id": 453,
+    "category": "industry",
+    "text": "PWAの可能性、2026年はまだ伸びきってない。でもiOSのサポートが改善されれば状況は変わるかも。引き続きウォッチ対象。 #PWA #トレンド"
+  },
+  {
+    "id": 454,
+    "category": "industry",
+    "text": "フリーランスの単価交渉、自分の価値を数字で示すのが大事。「AIツールを活用して従来の2倍の速度で開発できます」は説得力がある。 #フリーランス"
+  },
+  {
+    "id": 455,
+    "category": "industry",
+    "text": "React Nativeの採用企業が増え続けてる。Meta, Microsoft, Shopify。大手が使ってるという事実が安心材料になる。 #ReactNative"
+  },
+  {
+    "id": 456,
+    "category": "industry",
+    "text": "Zennでの記事公開、SEOも意識すると検索流入が増える。タイトルに検索されそうなキーワードを入れるだけで違う。 #Zenn #SEO"
+  },
+  {
+    "id": 457,
+    "category": "industry",
+    "text": "日本の0〜6歳児の保護者市場、デジタル化が遅れてる分野。母子手帳アプリはあるけど、もっと良いUXが求められてる。 #育児テック #マーケット"
+  },
+  {
+    "id": 458,
+    "category": "industry",
+    "text": "フリーランスの確定申告、毎年やってるけど毎年忘れてる。クラウド会計ソフトに毎月入力する習慣が大事。年末に慌てない。 #フリーランス #確定申告"
+  },
+  {
+    "id": 459,
+    "category": "industry",
+    "text": "技術カンファレンスに参加するのも自己投資。登壇できなくても、参加するだけで刺激を受けるし、人脈が広がる。 #エンジニア #カンファレンス"
+  },
+  {
+    "id": 460,
+    "category": "industry",
+    "text": "OSSにコントリビュートする文化、日本でもっと広まってほしい。小さなPRでもいい。バグ報告でもドキュメント改善でも。 #OSS #エンジニア"
+  },
+  {
+    "id": 461,
+    "category": "engagement",
+    "text": "Claude Code使ってる人に質問：一番便利だと感じる機能は何ですか？自分はgit操作の自動化が一番助かってます。 #ClaudeCode"
+  },
+  {
+    "id": 462,
+    "category": "engagement",
+    "text": "ぶっちゃけ、AI開発ツール使わずにコード書いてる人ってまだいる？もう手放せないんだけど、使ってない人の理由を知りたい。 #AI開発"
+  },
+  {
+    "id": 463,
+    "category": "engagement",
+    "text": "物議を醸す意見かもだけど：コードを書ける能力より、AIに正しく指示を出せる能力の方が今後は価値が高くなると思う。どう思いますか？ #AIエンジニア"
+  },
+  {
+    "id": 464,
+    "category": "engagement",
+    "text": "個人開発してる人に聞きたい！今何作ってますか？自分は育児アプリと観光マッチングアプリを同時開発中です。 #個人開発"
+  },
+  {
+    "id": 465,
+    "category": "engagement",
+    "text": "エンジニアの朝活、やってる人どのくらいいるんだろう？朝6時からコード書くの、集中力が夜の3倍ある気がする。 #朝活 #エンジニア"
+  },
+  {
+    "id": 466,
+    "category": "engagement",
+    "text": "Firebase vs Supabase、どっち派？両方使ってるけど、それぞれ良さがあって甲乙つけがたい。みんなの推しを教えて。 #Firebase #Supabase"
+  },
+  {
+    "id": 467,
+    "category": "engagement",
+    "text": "正直に答えて。自分の書いたコード、半年後に読み返して「何これ」ってなったことある？自分は毎回なる。 #エンジニアあるある"
+  },
+  {
+    "id": 468,
+    "category": "engagement",
+    "text": "フリーランスエンジニアの最大の悩みは何？\n①営業・案件獲得\n②確定申告\n③孤独\n④スキルアップ\n自分は③かな... #フリーランス"
+  },
+  {
+    "id": 469,
+    "category": "engagement",
+    "text": "プログラミング学習で一番つらかった瞬間は？自分は環境構築で3日間詰まったとき。今ならAIに聞けば一瞬なのに。 #プログラミング学習"
+  },
+  {
+    "id": 470,
+    "category": "engagement",
+    "text": "ホットテイク：コメントが多いコードは良いコードじゃない。コメントなしで読めるコードこそが良いコード。異論は認める。 #クリーンコード"
+  },
+  {
+    "id": 471,
+    "category": "engagement",
+    "text": "エンジニアが技術記事を書くモチベーション、何ですか？\n①知識の定着\n②ポートフォリオ\n③コミュニティ貢献\n④承認欲求\n全部正解だと思う。 #アウトプット"
+  },
+  {
+    "id": 472,
+    "category": "engagement",
+    "text": "TypeScriptのstrictモード、ONにしてる？OFFのまま開発してる人の理由を聞いてみたい。 #TypeScript"
+  },
+  {
+    "id": 473,
+    "category": "engagement",
+    "text": "React NativeとFlutter、2026年はどっちが優勢だと思いますか？個人的にはJSエコシステムの強さでRN推し。 #ReactNative #Flutter"
+  },
+  {
+    "id": 474,
+    "category": "engagement",
+    "text": "controversial opinion：テストカバレッジ100%を目指すのは時間の無駄。重要な部分だけ手厚くテストする方が効率的。同意？反対？ #テスト"
+  },
+  {
+    "id": 475,
+    "category": "engagement",
+    "text": "みんなのCLAUDE.md、何行くらい書いてる？自分はプロジェクトの規模にもよるけど100行前後。短すぎても長すぎてもダメな気がする。 #ClaudeCode"
+  },
+  {
+    "id": 476,
+    "category": "engagement",
+    "text": "エンジニアの休日の過ごし方、結局コード書いてる人多くない？趣味がプログラミングだから仕方ないんだけど。 #エンジニア #休日"
+  },
+  {
+    "id": 477,
+    "category": "engagement",
+    "text": "AI開発ツールに課金してる人、月いくらくらい使ってますか？自分は複数ツール合わせると結構な額になるけど、それ以上の価値がある。 #AI開発"
+  },
+  {
+    "id": 478,
+    "category": "engagement",
+    "text": "ダークモードとライトモード、開発中はどっち使ってる？自分は夜中の開発が多いからダークモード一択。 #開発環境"
+  },
+  {
+    "id": 479,
+    "category": "engagement",
+    "text": "フリーランスに転身して後悔したこと、ある人いますか？自分は全く後悔してないけど、正直不安な時期はあった。 #フリーランス"
+  },
+  {
+    "id": 480,
+    "category": "engagement",
+    "text": "1つのプログラミング言語を極めるべき vs 複数言語を広く浅く学ぶべき、どっち派？自分はTypeScript極める派。 #プログラミング"
+  },
+  {
+    "id": 481,
+    "category": "engagement",
+    "text": "エンジニアが読むべき本、1冊だけ薦めるなら何にする？自分は「リーダブルコード」。何度読んでも学びがある。 #エンジニア #読書"
+  },
+  {
+    "id": 482,
+    "category": "engagement",
+    "text": "Zustand使ってる人、Provider不要なの最高だよね？Context地獄から解放された瞬間の感動を共有したい。 #Zustand #React"
+  },
+  {
+    "id": 483,
+    "category": "engagement",
+    "text": "正直な話、ChatGPTとClaude、どっちをメインで使ってますか？コーディングに関してはClaude派が多い気がするけど。 #AI #ChatGPT #Claude"
+  },
+  {
+    "id": 484,
+    "category": "engagement",
+    "text": "個人開発あるある：完成度80%までは楽しい。残り20%の仕上げ（バグ修正、UI調整、ストア申請）が一番つらい。共感する人RT。 #個人開発"
+  },
+  {
+    "id": 485,
+    "category": "engagement",
+    "text": "CLIとGUI、ガチでどっちが好き？自分はCLI派に転向した元GUI勢。CLIの方が速いと気づいたら戻れなくなった。 #CLI #GUI"
+  },
+  {
+    "id": 486,
+    "category": "engagement",
+    "text": "エンジニアの英語力、どのくらい必要だと思う？公式ドキュメント読めればOK？それとも英語でコミュニケーションできるレベル？ #エンジニア #英語"
+  },
+  {
+    "id": 487,
+    "category": "engagement",
+    "text": "2つのアプリを同時開発してるのは無謀？計画的？みんなの意見聞きたい。今のところClaude Codeのおかげで何とかなってる。 #個人開発"
+  },
+  {
+    "id": 488,
+    "category": "engagement",
+    "text": "semicolonありなし論争、2026年でもまだ続いてる？自分はPrettier任せで気にしてない。フォーマッターに任せるのが正解。 #JavaScript"
+  },
+  {
+    "id": 489,
+    "category": "engagement",
+    "text": "エンジニアの副業、やってる人多い？本業＋副業＋個人開発のトリプルワーク、体力的にキツいけど楽しいからやめられない。 #エンジニア #副業"
+  },
+  {
+    "id": 490,
+    "category": "engagement",
+    "text": "技術記事のPV数気にする？自分は最初気にしすぎてたけど、今は「1人でも役に立てばOK」のマインドに変わった。 #アウトプット #Zenn"
+  },
+  {
+    "id": 491,
+    "category": "engagement",
+    "text": "エンジニアのキーボード、何使ってる？HHKB？Realforce？MacBookのバタフライ？キーボードにこだわるエンジニアは仕事できる説。 #エンジニア #キーボード"
+  },
+  {
+    "id": 492,
+    "category": "engagement",
+    "text": "npm vs yarn vs pnpm、2026年の答えはどれ？自分はnpmで十分派。速度差もほぼなくなったし、デフォルトで入ってるのは強い。 #npm #yarn #pnpm"
+  },
+  {
+    "id": 493,
+    "category": "engagement",
+    "text": "AIにコードレビューさせるのはアリ？ナシ？自分はアリだと思ってて、人間のレビュー前にAIで一次チェックするのが効率的。 #コードレビュー #AI"
+  },
+  {
+    "id": 494,
+    "category": "engagement",
+    "text": "Supabaseのどの機能が一番好き？\n①Authentication\n②Realtime\n③Edge Functions\n④Storage\n自分はRealtimeのワクワク感が一番。 #Supabase"
+  },
+  {
+    "id": 495,
+    "category": "engagement",
+    "text": "エンジニアの学習時間、1日何時間確保してる？業務外で1時間は確保したいけど、現実は30分がやっとの日もある。 #学習 #エンジニア"
+  },
+  {
+    "id": 496,
+    "category": "engagement",
+    "text": "正直に言って、デプロイ直後に本番バグ出したことある人🙋 自分は何度もある。だからこそCI/CDとテストの大切さを知った。 #エンジニアあるある"
+  },
+  {
+    "id": 497,
+    "category": "engagement",
+    "text": "もしプログラミング言語を一つだけ禁止されるとしたら何を選ぶ？自分はPHPかな...使ったことないし。反論待ってます。 #プログラミング"
+  },
+  {
+    "id": 498,
+    "category": "engagement",
+    "text": "エンジニアのモニター、何枚使ってる？1枚で十分派 vs デュアル必須派 vs ウルトラワイド最強派。自分はデュアル派。 #開発環境"
+  },
+  {
+    "id": 499,
+    "category": "engagement",
+    "text": "Zennの記事で一番読まれるジャンルって何だと思う？自分の経験だと「初心者向けセットアップ系」が一番PV多い。意外とニーズある。 #Zenn #技術記事"
+  },
+  {
+    "id": 500,
+    "category": "engagement",
+    "text": "最後に聞きたい。あなたがエンジニアになった理由は何ですか？自分は「自分のアイデアを形にできる」のが最高に楽しいから。 #エンジニア"
+  }
+]
