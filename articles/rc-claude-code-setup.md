@@ -3,7 +3,7 @@ title: "Claude Codeのインストールと初回起動ガイド【2025年最新
 emoji: "🚀"
 type: "tech"
 topics: ["claudecode", "ai", "初心者", "環境構築"]
-published: true
+published: false
 ---
 
 ## Claude Codeとは

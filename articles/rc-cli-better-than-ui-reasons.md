@@ -3,7 +3,7 @@ title: "Claude CodeはなぜCLI？UIよりCLIが優れている5つの理由"
 emoji: "⚡"
 type: "tech"
 topics: ["claudecode", "cli", "ai", "開発環境"]
-published: true
+published: false
 ---
 
 ## 「なんでわざわざ黒い画面で使うの？」

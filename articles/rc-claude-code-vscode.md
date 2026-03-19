@@ -3,7 +3,7 @@ title: "VS Code × Claude Codeの統合環境を構築する完全ガイド"
 emoji: "🛠"
 type: "tech"
 topics: ["claudecode", "vscode", "ai", "開発環境"]
-published: true
+published: false
 ---
 
 ## なぜVS Code × Claude Codeなのか

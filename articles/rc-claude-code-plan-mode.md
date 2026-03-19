@@ -3,7 +3,7 @@ title: "Plan Modeを使いこなせばClaude Codeの精度が劇的に上がる"
 emoji: "📋"
 type: "tech"
 topics: ["claudecode", "ai", "開発手法", "プログラミング"]
-published: true
+published: false
 ---
 
 ## Plan Modeとは
