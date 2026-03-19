@@ -21,6 +21,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
     "dotenv": "^17.3.1",
+    "twitter-api-v2": "^1.29.0",
     "zenn-cli": "^0.4.6"
   }
 }

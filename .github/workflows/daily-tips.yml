@@ -1,0 +1,32 @@
+name: Daily Tips Post
+
+on:
+  schedule:
+    # 毎日日本時間19:00（UTC 10:00）- エンジニアが帰宅後にXを見る時間帯
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  post-tip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Post daily tip
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: |
+          # 曜日ベースでTipsをローテーション（0=日曜 ... 6=土曜）
+          DAY=$(date +%w)
+          TIP=$(node -e "const tips=require('./daily-tips.json'); console.log(tips[$DAY])")
+          node post-to-x.js "$TIP"
