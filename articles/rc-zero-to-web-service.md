@@ -1,16 +1,16 @@
 ---
-title: "Claude Codeで未経験からWebサービスを作った話"
+title: "プログラミング未経験からClaude CodeでWebサービスを作った体験談"
 emoji: "🌱"
 type: "idea"
-topics: ["claudecode", "webservice", "startup", "experience"]
+topics: ["claudecode", "webdev", "beginners", "supabase"]
 published: false
 ---
 
+プログラミング未経験からClaude Codeだけを使い、約16時間で実際に動くWebサービスを作った体験談です。成功と失敗のリアルな記録を共有します。
+
 ## はじめに
 
-プログラミング未経験の状態からClaude Codeだけを使って、**実際に動くWebサービス**を作った過程を共有します。
-
-「プログラミングできなくてもAIがあればWebサービスが作れる」——これが本当なのか、実体験をもとにお話しします。
+プログラミング未経験の状態からClaude Codeだけを使って、約16時間で実際に動くWebサービスを作りました。何がうまくいき、何につまずいたかを正直に共有します。
 
 ## 作ったもの
 

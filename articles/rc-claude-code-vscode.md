@@ -1,10 +1,12 @@
 ---
-title: "VS Code × Claude Codeの統合環境を構築する完全ガイド"
+title: "VS CodeでClaude Codeを使う方法｜統合開発環境の構築ガイド"
 emoji: "🛠"
 type: "tech"
-topics: ["claudecode", "vscode", "ai", "開発環境"]
+topics: ["claudecode", "vscode", "ide", "devtools"]
 published: false
 ---
+
+VS CodeのターミナルからClaude Codeを起動すれば、コード編集とAI指示を同じ画面で行える最強の開発環境が手に入ります。セットアップから実践的なワークフローまで解説します。
 
 ## なぜVS Code × Claude Codeなのか
 

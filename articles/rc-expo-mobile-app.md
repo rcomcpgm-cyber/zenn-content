@@ -1,14 +1,16 @@
 ---
-title: "Claude Codeでスマホアプリ（Expo）を作る入門ガイド"
+title: "Claude Codeでスマホアプリを作る方法｜Expo（React Native）入門"
 emoji: "📱"
 type: "tech"
-topics: ["claudecode", "expo", "reactnative", "mobile"]
+topics: ["claudecode", "expo", "reactnative", "typescript"]
 published: false
 ---
 
+Claude CodeとExpo（React Native）を使えば、iOS/Android両対応のスマホアプリを日本語の指示だけで開発できます。環境構築からアプリ完成までをステップバイステップで解説します。
+
 ## この記事でやること
 
-Claude Codeを使って、**iOSとAndroid両対応のスマホアプリ**を作ります。使うのはExpo（React Native）です。
+Claude CodeとExpo（React Native）を使えば、iOS/Android両対応のスマホアプリを日本語の指示だけで作れます。メモアプリを例にステップバイステップで解説します。
 
 ## Expoとは
 

@@ -1,10 +1,12 @@
 ---
-title: "日本語で話しかけるだけ！Claude Codeの基本的な使い方"
+title: "Claude Codeの使い方入門｜日本語で指示するだけでコードが書ける"
 emoji: "🗣"
 type: "tech"
-topics: ["claudecode", "ai", "プログラミング", "初心者"]
+topics: ["claudecode", "ai", "programming", "beginners"]
 published: true
 ---
+
+Claude Codeは日本語で指示するだけでコードを自動生成するAIツールです。この記事では、起動から基本操作、得意・不得意まで初心者向けに解説します。
 
 ## Claude Codeの基本操作
 

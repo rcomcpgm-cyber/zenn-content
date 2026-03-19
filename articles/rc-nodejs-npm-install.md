@@ -1,10 +1,12 @@
 ---
-title: "Node.jsとnpmを5分でインストールする方法【Windows/Mac対応】"
+title: "Node.jsとnpmのインストール方法｜Windows/Mac対応【2025年最新】"
 emoji: "📦"
 type: "tech"
-topics: ["nodejs", "npm", "初心者", "環境構築"]
+topics: ["nodejs", "npm", "beginners", "setup"]
 published: false
 ---
+
+Node.jsとnpmはClaude Codeを使うために必要な基盤ツールです。Windows・Mac両対応で、ダウンロードからインストール完了まで5分で終わる手順を解説します。
 
 ## この記事でやること
 

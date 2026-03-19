@@ -1,14 +1,16 @@
 ---
-title: "Claude Code × Supabaseでフルスタックアプリを作る"
+title: "Claude Code × Supabaseでフルスタックアプリを作る方法｜認証・DB・リアルタイム"
 emoji: "⚡"
 type: "tech"
 topics: ["claudecode", "supabase", "nextjs", "fullstack"]
 published: false
 ---
 
+Claude CodeとSupabaseを組み合わせれば、認証・データベース・リアルタイム通信を備えた本格的なWebアプリを構築できます。チャットアプリを例に手順を解説します。
+
 ## この記事でやること
 
-Claude CodeとSupabaseを組み合わせて、**認証・データベース・リアルタイム通信を備えたフルスタックアプリ**を作ります。
+Claude CodeとSupabaseを組み合わせれば、認証・データベース・リアルタイム通信を備えた本格的なWebアプリを日本語の指示だけで構築できます。チャットアプリを例に解説します。
 
 ## なぜSupabase？
 

@@ -1,10 +1,12 @@
 ---
-title: "現役エンジニアが教えるClaude Code実践テクニック10選"
+title: "Claude Code実践テクニック10選｜現役エンジニアが教える効率化Tips"
 emoji: "💡"
 type: "tech"
-topics: ["claudecode", "ai", "tips", "プログラミング"]
+topics: ["claudecode", "ai", "productivity", "tips"]
 published: false
 ---
+
+Claude Codeを毎日使う中で見つけた、生産性を劇的に上げるテクニックを10個厳選しました。初心者から中級者まで即実践できます。
 
 ## はじめに
 

@@ -1,10 +1,12 @@
 ---
-title: "MCPサーバー連携でClaude Codeを最強の開発環境にする"
+title: "Claude CodeのMCPサーバー連携ガイド｜外部ツールとAIをつなぐ方法"
 emoji: "🔌"
 type: "tech"
-topics: ["claudecode", "mcp", "ai", "開発環境"]
+topics: ["claudecode", "mcp", "api", "devtools"]
 published: true
 ---
+
+MCP（Model Context Protocol）を使えば、Claude Codeからブラウザ操作、データベース接続、外部API呼び出しが可能になります。設定方法と実用例を解説します。
 
 ## MCPとは
 

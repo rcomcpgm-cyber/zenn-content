@@ -1,10 +1,12 @@
 ---
-title: "Claude Codeでバグ修正を10倍速にする方法"
+title: "Claude Codeでバグ修正を10倍速にする方法｜エラー解決の実践テクニック"
 emoji: "🐛"
 type: "tech"
-topics: ["claudecode", "debug", "programming", "tips"]
+topics: ["claudecode", "debug", "programming", "productivity"]
 published: false
 ---
+
+Claude Codeにエラーメッセージを貼るだけで、原因特定から修正まで自動で行ってくれます。従来のGoogle検索→試行錯誤のループを一気にショートカットする方法を解説します。
 
 ## バグ修正が10倍速くなる理由
 

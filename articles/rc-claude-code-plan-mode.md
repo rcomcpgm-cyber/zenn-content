@@ -1,10 +1,12 @@
 ---
-title: "Plan Modeを使いこなせばClaude Codeの精度が劇的に上がる"
+title: "Claude CodeのPlan Mode活用術｜AIの精度を上げる計画モードとは"
 emoji: "📋"
 type: "tech"
-topics: ["claudecode", "ai", "開発手法", "プログラミング"]
+topics: ["claudecode", "ai", "productivity", "programming"]
 published: false
 ---
+
+Claude CodeのPlan Modeを使えば、AIが作業前に計画を提示し、確認してから実行に移れます。複雑なタスクでの精度が劇的に向上します。
 
 ## Plan Modeとは
 

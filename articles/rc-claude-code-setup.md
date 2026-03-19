@@ -1,10 +1,12 @@
 ---
-title: "Claude Codeのインストールと初回起動ガイド【2025年最新】"
+title: "Claude Codeのインストール方法｜初心者向けセットアップ完全ガイド【2025年】"
 emoji: "🚀"
 type: "tech"
-topics: ["claudecode", "ai", "初心者", "環境構築"]
+topics: ["claudecode", "nodejs", "setup", "beginners"]
 published: false
 ---
+
+Claude CodeはAnthropicが提供するCLI型AIコーディングアシスタントです。この記事では、インストールから初回起動、動作確認までを初心者向けにステップバイステップで解説します。
 
 ## Claude Codeとは
 

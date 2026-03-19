@@ -1,10 +1,12 @@
 ---
-title: "Claude Code × Git連携で安全に開発する方法"
+title: "Claude Code × Git入門｜バージョン管理で安全にAI開発する方法"
 emoji: "🔒"
 type: "tech"
-topics: ["claudecode", "git", "github", "初心者"]
+topics: ["claudecode", "git", "github", "beginners"]
 published: true
 ---
+
+Claude CodeとGitを組み合わせれば、AIの変更をいつでも元に戻せる安全な開発環境が手に入ります。Git未経験でもわかるように基本から解説します。
 
 ## なぜGitが必要なのか
 

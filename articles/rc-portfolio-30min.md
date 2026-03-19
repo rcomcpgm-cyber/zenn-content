@@ -1,14 +1,16 @@
 ---
-title: "Claude Codeでポートフォリオサイトを30分で作る【実践】"
+title: "Claude Codeでポートフォリオサイトを30分で作る方法｜React+Tailwind"
 emoji: "🎨"
 type: "tech"
-topics: ["claudecode", "portfolio", "react", "webdev"]
+topics: ["claudecode", "react", "portfolio", "tailwindcss"]
 published: false
 ---
 
+Claude Codeを使えば、React + Tailwind CSSのモダンなポートフォリオサイトを30分で構築できます。転職・フリーランス営業に使える実践的な作り方を解説します。
+
 ## この記事でやること
 
-Claude Codeを使って、転職やフリーランス案件獲得に使える **ポートフォリオサイト** を30分で作ります。プログラミング経験がなくても大丈夫です。
+Claude Codeを使えば、転職やフリーランス営業に使えるポートフォリオサイトを30分で作れます。React + Tailwind CSSでモダンなサイトを構築する手順を解説します。
 
 ## 完成イメージ
 

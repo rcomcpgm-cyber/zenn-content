@@ -1,10 +1,12 @@
 ---
-title: "CLAUDE.mdでAIに記憶を持たせる方法【生産性が激変する】"
+title: "CLAUDE.mdの書き方ガイド｜AIに記憶を持たせて生産性を上げる方法"
 emoji: "🧠"
 type: "tech"
-topics: ["claudecode", "ai", "生産性", "プログラミング"]
+topics: ["claudecode", "ai", "productivity", "devtools"]
 published: false
 ---
+
+CLAUDE.mdは、プロジェクトの情報をAIに記憶させるための設定ファイルです。一度書けば毎回の説明が不要になり、開発の生産性が激変します。書き方のコツと実例を紹介します。
 
 ## CLAUDE.mdとは何か
 

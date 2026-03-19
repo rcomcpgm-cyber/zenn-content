@@ -1,10 +1,12 @@
 ---
-title: "CLIって何？黒い画面が怖い人に贈る「超やさしい」入門ガイド"
+title: "CLIとは？初心者向けにわかりやすく解説【コマンドラインの基礎】"
 emoji: "💻"
 type: "tech"
-topics: ["cli", "初心者", "terminal", "claudecode"]
+topics: ["cli", "terminal", "beginners", "claudecode"]
 published: true
 ---
+
+CLI（コマンドラインインターフェース）とは、キーボードで文字を打ってパソコンに指示を出す方法です。この記事では、黒い画面に触れたことがない完全初心者向けに、CLIの基本をやさしく解説します。
 
 ## この記事は誰のため？
 

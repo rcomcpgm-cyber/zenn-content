@@ -1,14 +1,16 @@
 ---
-title: "Claude Codeでデータ分析・可視化する方法"
+title: "Claude Codeでデータ分析・グラフ作成を自動化する方法｜Python/Node.js"
 emoji: "📊"
 type: "tech"
-topics: ["claudecode", "data", "python", "visualization"]
+topics: ["claudecode", "python", "dataanalysis", "visualization"]
 published: false
 ---
 
+Claude Codeを使えば、CSVデータの分析やグラフ作成を日本語の一言で自動化できます。Python/Node.jsを使った実践的なデータ可視化の方法を解説します。
+
 ## この記事でやること
 
-Claude Codeを使って、**CSVデータの分析とグラフ作成**を自動化します。ExcelやGoogleスプレッドシートでは面倒な作業を一瞬で終わらせます。
+Claude Codeを使えば、CSVデータの分析とグラフ作成を「このCSVを分析して」の一言で自動化できます。Excelより速く、コードも残る実践的な方法を解説します。
 
 ## なぜClaude Codeでデータ分析？
 

@@ -1,14 +1,16 @@
 ---
-title: "Claude Codeでスクレイピングツールを作る【実用例あり】"
+title: "Claude CodeでWebスクレイピングツールを作る方法｜Node.js実用例"
 emoji: "🕷"
 type: "tech"
-topics: ["claudecode", "scraping", "nodejs", "automation"]
+topics: ["claudecode", "nodejs", "scraping", "automation"]
 published: false
 ---
 
+Claude Codeを使えば、Webスクレイピングツールを日本語の指示だけで作れます。cheerio・axios・Puppeteerを使ったNode.jsの実用例を紹介します。
+
 ## この記事でやること
 
-Claude Codeを使って、**Webサイトから情報を自動収集するスクレイピングツール**を作ります。
+Claude Codeを使えば、Webサイトから情報を自動収集するスクレイピングツールを日本語の指示だけで作れます。cheerio/axios/Puppeteerを使った実用例を紹介します。
 
 ## スクレイピングとは
 

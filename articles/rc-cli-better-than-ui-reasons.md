@@ -1,16 +1,12 @@
 ---
-title: "Claude CodeはなぜCLI？UIよりCLIが優れている5つの理由"
+title: "Claude CodeがCLIである理由｜チャットUIよりCLIが優れている5つのポイント"
 emoji: "⚡"
 type: "tech"
-topics: ["claudecode", "cli", "ai", "開発環境"]
+topics: ["claudecode", "cli", "ai", "productivity"]
 published: false
 ---
 
-## 「なんでわざわざ黒い画面で使うの？」
-
-Claude Codeを知った人の多くがこう思います。ChatGPTみたいにブラウザで使えるUIがあるのに、なぜCLIなのか。
-
-結論から言うと、**CLIの方が圧倒的に生産性が高い**からです。
+「なぜわざわざ黒い画面で使うの？」と思うかもしれません。結論から言うと、コーディング作業においてCLIはUIより圧倒的に生産性が高いです。その5つの理由を解説します。
 
 ## 理由1：ファイル操作が直接できる
 
