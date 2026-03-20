@@ -2,8 +2,8 @@ name: Auto Follow Claude Code Community
 
 on:
   schedule:
-    # 毎週月曜・木曜 21:00 JST (UTC 12:00)
-    - cron: '0 12 * * 1,4'
+    # 平日 18:30 JST (UTC 09:30)
+    - cron: '30 9 * * 1-5'
   workflow_dispatch:
 
 permissions:
