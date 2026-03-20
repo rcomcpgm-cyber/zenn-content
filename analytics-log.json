@@ -1,0 +1,57 @@
+{
+  "weeks": [
+    {
+      "date": "2026-03-20T08:42:10.900Z",
+      "profile": {
+        "followers": 2,
+        "following": 27,
+        "totalTweets": 18
+      },
+      "last50Tweets": {
+        "totalLikes": 0,
+        "totalRetweets": 0,
+        "totalImpressions": 9,
+        "avgLikes": "0.0",
+        "avgImpressions": "0.5",
+        "tweetCount": 18
+      },
+      "topTweets": [
+        {
+          "text": "NVIDIAの推論特化チップ来年か。でさ、日本企業がここで勝つには「推論をどう使うか」の部分で独自性持つしかないんだよね。チップ競争は負け確だから、業務アプリに",
+          "likes": 0,
+          "retweets": 0,
+          "impressions": 0,
+          "date": "2026-03-20T08:41:56.000Z"
+        },
+        {
+          "text": "Claude CodeとGitの組み合わせ、マジで最強。安全にAI開発できる環境が整う。詳しくはZennの記事で解説してます。\n\nhttps://t.co/J3",
+          "likes": 0,
+          "retweets": 0,
+          "impressions": 0,
+          "date": "2026-03-20T08:41:14.000Z"
+        },
+        {
+          "text": "あとはGitHubにpushしてバックアップ。ローカルだけだと万が一の時が怖いし。`git push`でOK。これでクラウドに履歴が永遠に残ります。",
+          "likes": 0,
+          "retweets": 0,
+          "impressions": 0,
+          "date": "2026-03-20T08:41:12.000Z"
+        },
+        {
+          "text": "ブランチも重要。mainブランチ直接いじらず、新しいブランチで作業する。完成したらマージする。こうすると本番環境を守れます。Claude Codeも「featu",
+          "likes": 0,
+          "retweets": 0,
+          "impressions": 0,
+          "date": "2026-03-20T08:41:10.000Z"
+        },
+        {
+          "text": "大事なのは「作業前に必ずコミット」すること。これだけで、AIの変更が気に入らなくても即座に戻せる。あと機能単位でこまめにコミットする。「ヘッダー追加」「ログイン",
+          "likes": 0,
+          "retweets": 0,
+          "impressions": 0,
+          "date": "2026-03-20T08:41:09.000Z"
+        }
+      ]
+    }
+  ]
+}
