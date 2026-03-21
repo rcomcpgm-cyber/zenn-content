@@ -96,10 +96,8 @@ async function searchAndLike() {
 
       liked++;
       // レートリミット回避
-      // 2〜3分のランダム間隔（凍結対策）
-      const delay = (120 + Math.floor(Math.random() * 60)) * 1000;
-      console.log(`  Waiting ${Math.round(delay/1000)}s...`);
-      await new Promise((r) => setTimeout(r, delay));
+      // 10秒間隔
+      await new Promise((r) => setTimeout(r, 10000));
     } catch (err) {
       const msg = err.data?.detail || err.message || String(err);
       console.log(`Error: ${msg}`);
