@@ -1530,74 +1530,14 @@
     "text": "MCPサーバーとClaude Codeの連携方法を解説する記事を準備中。外部ツール連携の可能性が広がる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #ClaudeCode #MCP"
   },
   {
-    "id": 307,
-    "category": "article",
-    "text": "Plan Mode活用術の記事を執筆中。大規模な変更を安全に進めるためのノウハウを公開予定。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode #ClaudeCode"
-  },
-  {
-    "id": 308,
-    "category": "article",
-    "text": "Claude Codeのインストール方法を丁寧にまとめた記事を準備中。初心者でも迷わない手順を解説。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup #ClaudeCode"
-  },
-  {
-    "id": 309,
-    "category": "article",
-    "text": "Claude Codeの実践テクニック10選の記事を書いてます。日常開発で使えるTipsを厳選。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips #ClaudeCode"
-  },
-  {
-    "id": 310,
-    "category": "article",
-    "text": "VS Code × Claude Codeの連携記事を準備中。IDEとCLIの最強コンビを紹介します。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode #ClaudeCode #VSCode"
-  },
-  {
-    "id": 311,
-    "category": "article",
-    "text": "CLAUDE.mdの書き方ガイドを執筆中。このファイル1つでAIの出力が劇的に変わる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory #ClaudeCode"
-  },
-  {
     "id": 312,
     "category": "article",
     "text": "CLIがUIより優れている理由を記事にまとめています。効率を求めるエンジニア必読。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
   },
   {
-    "id": 313,
-    "category": "article",
-    "text": "Claude Codeでデータ分析やグラフ作成ができる記事を準備中。非エンジニアにも役立つ内容。\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz #ClaudeCode"
-  },
-  {
-    "id": 314,
-    "category": "article",
-    "text": "バグ修正を10倍速にするClaude Code活用法を記事にまとめてます。デバッグの革命。\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster #ClaudeCode #デバッグ"
-  },
-  {
     "id": 315,
     "category": "article",
     "text": "Expoでスマホアプリを作る方法を初心者向けに解説する記事を準備中。React Native入門に。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo #ReactNative"
-  },
-  {
-    "id": 316,
-    "category": "article",
-    "text": "Node.jsのインストール方法を超丁寧に解説する記事を書いてます。環境構築の壁を乗り越えよう。\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install #NodeJS #初心者"
-  },
-  {
-    "id": 317,
-    "category": "article",
-    "text": "30分でポートフォリオサイトを作る記事を準備中。Claude Codeの力で爆速開発を体験。\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min #ClaudeCode #ポートフォリオ"
-  },
-  {
-    "id": 318,
-    "category": "article",
-    "text": "スクレイピングツールをClaude Codeで作る記事を執筆中。データ収集の自動化を解説。\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool #ClaudeCode #スクレイピング"
-  },
-  {
-    "id": 319,
-    "category": "article",
-    "text": "Supabaseでフルスタック開発する方法を記事にまとめています。バックエンド初心者にも。\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack #Supabase"
-  },
-  {
-    "id": 320,
-    "category": "article",
-    "text": "未経験からWebサービスを作るまでのロードマップ記事を準備中。具体的な手順を公開予定。\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service #プログラミング #初心者"
   },
   {
     "id": 321,
@@ -1620,74 +1560,14 @@
     "text": "MCP連携の記事、書いてて自分も学びが多い。Claude Codeの可能性を広げるキー技術。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP #ClaudeCode"
   },
   {
-    "id": 325,
-    "category": "article",
-    "text": "Plan Modeを使いこなすと大規模変更が怖くなくなる。その方法を記事で詳しく解説予定。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode #ClaudeCode"
-  },
-  {
-    "id": 326,
-    "category": "article",
-    "text": "Claude Codeセットアップ記事は「PCが苦手な人でもできる」レベルで丁寧に書いてます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup #ClaudeCode #初心者"
-  },
-  {
-    "id": 327,
-    "category": "article",
-    "text": "実践テクニック10選、毎日の開発で使ってるものだけ厳選しました。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips #ClaudeCode"
-  },
-  {
-    "id": 328,
-    "category": "article",
-    "text": "VS CodeとClaude Codeの連携、IDE派の人にこそ知ってほしい。CLI嫌いでも使える。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode #VSCode #ClaudeCode"
-  },
-  {
-    "id": 329,
-    "category": "article",
-    "text": "CLAUDE.md書き方ガイド、プロジェクトの型をAIに教える方法を体系的にまとめてます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory #ClaudeCode"
-  },
-  {
     "id": 330,
     "category": "article",
     "text": "CLIの方がGUIより効率的な場面がある。その具体例を記事で紹介予定。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
   },
   {
-    "id": 331,
-    "category": "article",
-    "text": "データ分析もClaude Codeでできる時代。PythonなしでもCSVからグラフが作れる方法を解説予定。\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz #ClaudeCode #データ分析"
-  },
-  {
-    "id": 332,
-    "category": "article",
-    "text": "デバッグの効率が10倍になったのは誇張じゃない。具体的な方法を記事にまとめてます。\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster #ClaudeCode"
-  },
-  {
     "id": 333,
     "category": "article",
     "text": "Expoでスマホアプリ開発の敷居はかなり低い。Webの知識があれば始められる理由を記事で解説。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
-  },
-  {
-    "id": 334,
-    "category": "article",
-    "text": "Node.jsインストール記事、Mac/Windows両対応で書いてます。つまずきポイントも解説。\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install #NodeJS"
-  },
-  {
-    "id": 335,
-    "category": "article",
-    "text": "30分でポートフォリオって本当？Claude Codeなら本当にできます。その手順を公開予定。\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min #ClaudeCode"
-  },
-  {
-    "id": 336,
-    "category": "article",
-    "text": "スクレイピングツールの作り方記事、法的注意点にも触れてます。技術だけじゃなくルールも大事。\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool #ClaudeCode"
-  },
-  {
-    "id": 337,
-    "category": "article",
-    "text": "Supabaseフルスタック記事、認証からDB操作まで一気通貫で解説予定。これ1本で全体像がわかる。\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack #Supabase"
-  },
-  {
-    "id": 338,
-    "category": "article",
-    "text": "未経験からWebサービスを作る記事、自分の経験をベースに書いてます。リアルなロードマップ。\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service #Web開発"
   },
   {
     "id": 339,
@@ -1715,44 +1595,9 @@
     "text": "MCPの概念が分かりにくい人へ。記事では図解付きで説明する予定です。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
   },
   {
-    "id": 344,
-    "category": "article",
-    "text": "Plan Mode記事では失敗例も紹介予定。Plan Modeを使わなかった時の手戻りの怖さを実体験ベースで。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode #ClaudeCode"
-  },
-  {
-    "id": 345,
-    "category": "article",
-    "text": "セットアップ記事は「ここでつまずいた」というコメントを反映して改善してます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup #ClaudeCode"
-  },
-  {
-    "id": 346,
-    "category": "article",
-    "text": "Tips記事の内容は全部自分が毎日使ってるもの。机上の空論じゃないのがポイント。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips #ClaudeCode"
-  },
-  {
-    "id": 347,
-    "category": "article",
-    "text": "VS Code派がClaude Codeに移行する最短ルートを記事にまとめてます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode #VSCode"
-  },
-  {
-    "id": 348,
-    "category": "article",
-    "text": "CLAUDE.mdの書き方一つで開発効率が2倍変わる。具体的な書き方を記事で紹介予定。\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory #ClaudeCode"
-  },
-  {
     "id": 349,
     "category": "article",
     "text": "「CLIは古い」は誤解。CLIの方が効率的な場面を具体例付きで記事にします。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
-  },
-  {
-    "id": 350,
-    "category": "article",
-    "text": "データ分析記事ではExcelでは難しい処理をClaude Codeで簡単に実現する方法を解説予定。\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz #データ分析"
-  },
-  {
-    "id": 351,
-    "category": "article",
-    "text": "バグ修正の速度が変わるとプロジェクト全体の生産性が変わる。その方法を記事に。\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster #デバッグ"
   },
   {
     "id": 352,
@@ -1763,26 +1608,6 @@
     "id": 353,
     "category": "article",
     "text": "記事シリーズの読む順番：CLI解説→Node.js→Claude Codeセットアップ→基本操作。この順がスムーズ。 #Zenn #ClaudeCode"
-  },
-  {
-    "id": 354,
-    "category": "article",
-    "text": "ポートフォリオを30分で作る記事、就活生やフリーランスの方に読んでほしい。\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min #ポートフォリオ"
-  },
-  {
-    "id": 355,
-    "category": "article",
-    "text": "Supabaseの記事ではRLSの設定方法も詳しく解説予定。セキュリティは妥協しない。\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack #Supabase"
-  },
-  {
-    "id": 356,
-    "category": "article",
-    "text": "Webサービス開発の全体像を1記事にまとめるのは挑戦的だけど、初心者に必要な情報だと思う。\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service #Web開発"
-  },
-  {
-    "id": 357,
-    "category": "article",
-    "text": "スクレイピング記事ではBeautifulSoupではなくClaude Codeのアプローチを紹介。新しい方法。\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool #スクレイピング"
   },
   {
     "id": 358,
@@ -1815,11 +1640,6 @@
     "text": "Claude Codeの記事を書いてると、自分でも新しい使い方を発見する。教えることは学ぶこと。 #ClaudeCode #Zenn"
   },
   {
-    "id": 364,
-    "category": "article",
-    "text": "Node.jsのインストールでつまずく人、本当に多い。だから超丁寧に書きました。\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install #NodeJS"
-  },
-  {
     "id": 365,
     "category": "article",
     "text": "Claude Codeの基本操作記事、ブックマーク数が増えてきた。需要あるんだなと実感。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
@@ -1828,11 +1648,6 @@
     "id": 366,
     "category": "article",
     "text": "Git入門記事を読んだ方から「初めてブランチ切れました」の報告。これが記事を書く醍醐味。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git"
-  },
-  {
-    "id": 367,
-    "category": "article",
-    "text": "デバッグ記事ではエラーの読み方から解説予定。エラーが怖い人にこそ読んでほしい。\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster #デバッグ"
   },
   {
     "id": 368,
@@ -1850,19 +1665,9 @@
     "text": "Zennで記事を公開するたびにフォロワーが増える。継続的なアウトプットの力を実感。 #Zenn #アウトプット"
   },
   {
-    "id": 371,
-    "category": "article",
-    "text": "Claude Code Tips記事、CLAUDE.mdの書き方から/compactの使い所まで実践的な内容です。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips #ClaudeCode"
-  },
-  {
     "id": 372,
     "category": "article",
     "text": "CLIがUIより優れている理由、エンジニアなら共感してもらえるはず。記事公開が楽しみ。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
-  },
-  {
-    "id": 373,
-    "category": "article",
-    "text": "フルスタック開発をSupabaseで始める記事。Firebase派にも知ってほしいSQL系の良さ。\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack #Supabase"
   },
   {
     "id": 374,
@@ -1875,24 +1680,9 @@
     "text": "技術記事は鮮度が大事。定期的にアップデートして最新情報を反映してます。 #Zenn #技術記事"
   },
   {
-    "id": 376,
-    "category": "article",
-    "text": "Webサービス開発記事では技術選定の理由も解説予定。「なぜこの技術を選んだか」が大事。\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service #Web開発"
-  },
-  {
-    "id": 377,
-    "category": "article",
-    "text": "CLAUDE.md記事は全開発者に読んでほしい。設定ファイル1つでAIの出力品質が変わる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory #ClaudeCode"
-  },
-  {
     "id": 378,
     "category": "article",
     "text": "記事を書く→フィードバック→改善→記事更新のサイクルが回り始めた。Zennのエコシステムが好き。 #Zenn"
-  },
-  {
-    "id": 379,
-    "category": "article",
-    "text": "データ分析記事、非エンジニアの知人にレビューしてもらってます。分かりやすさ重視。\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz #データ分析"
   },
   {
     "id": 380,
@@ -3610,64 +3400,14 @@
     "text": "Claude Code × Git記事を読んだ方へ：次はMCP連携の記事も準備中です。お楽しみに。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode"
   },
   {
-    "id": 815,
-    "category": "article",
-    "text": "VS Code連携記事ではIDEの拡張機能との使い分けも解説予定。両方使うのが最強。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode #VSCode"
-  },
-  {
-    "id": 816,
-    "category": "article",
-    "text": "CLAUDE.md記事は「設定ファイルで開発効率が変わる」ことを伝えたくて書いてる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory #ClaudeCode"
-  },
-  {
-    "id": 817,
-    "category": "article",
-    "text": "ポートフォリオ記事はエンジニア就活中の方に特に読んでほしい。30分で差がつく。\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min #ポートフォリオ"
-  },
-  {
-    "id": 818,
-    "category": "article",
-    "text": "スクレイピング記事ではethicalなデータ収集を重視。技術と倫理のバランス。\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool #スクレイピング"
-  },
-  {
-    "id": 819,
-    "category": "article",
-    "text": "Supabaseフルスタック記事、Firebase経験者の視点でも書いてます。比較しながら学べる。\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack #Supabase"
-  },
-  {
-    "id": 820,
-    "category": "article",
-    "text": "未経験からWebサービスを作る記事、具体的な技術選定理由も含めて解説予定。\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service #Web開発"
-  },
-  {
     "id": 821,
     "category": "article",
     "text": "記事を書いてると読者からの質問で新しい視点が得られる。双方向のコミュニケーション。 #Zenn"
   },
   {
-    "id": 822,
-    "category": "article",
-    "text": "Claude Code Tips記事のために自分の開発ログを見返してる。実体験ベースの内容にする。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips #ClaudeCode"
-  },
-  {
-    "id": 823,
-    "category": "article",
-    "text": "データ分析記事、Pythonじゃなくても分析できることを伝えたい。AIの力で。\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz #データ分析"
-  },
-  {
-    "id": 824,
-    "category": "article",
-    "text": "デバッグ記事では「エラーとの向き合い方」から解説する。マインドセットが大事。\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster #デバッグ"
-  },
-  {
     "id": 825,
     "category": "article",
     "text": "Expo入門記事では「なぜReact Nativeなのか」から説明する。選択理由を知ることが大事。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
-  },
-  {
-    "id": 826,
-    "category": "article",
-    "text": "Node.js記事はWindowsとMacの両方の手順を載せてます。環境依存のハマりポイントも。\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install #NodeJS"
   },
   {
     "id": 827,
@@ -3683,16 +3423,6 @@
     "id": 829,
     "category": "article",
     "text": "MCP記事では具体的な接続設定からユースケースまでカバーする予定。実用重視。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
-  },
-  {
-    "id": 830,
-    "category": "article",
-    "text": "Plan Mode記事の目標：読んだ人がすぐにPlan Modeを試したくなる内容にすること。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode #ClaudeCode"
-  },
-  {
-    "id": 831,
-    "category": "article",
-    "text": "セットアップ記事ではトラブルシューティングセクションを充実させてます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup #ClaudeCode"
   },
   {
     "id": 832,
@@ -3735,16 +3465,6 @@
     "text": "技術記事のストックが増えてきた。初心者が迷わず読める順番を整理したい。 #Zenn #ClaudeCode"
   },
   {
-    "id": 840,
-    "category": "article",
-    "text": "Supabase記事ではテーブル設計の考え方から解説予定。SQLの基礎も含めて。\nhttps://zenn.dev/rcn_article/articles/rc-supabase-fullstack #Supabase"
-  },
-  {
-    "id": 841,
-    "category": "article",
-    "text": "30分ポートフォリオ記事、デプロイまで含めての30分。Vercelの力を借りる。\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min #ポートフォリオ"
-  },
-  {
     "id": 842,
     "category": "article",
     "text": "記事の文字数は3000〜5000字を目安にしてる。長すぎず短すぎず、読みやすい長さ。 #Zenn #技術記事"
@@ -3755,19 +3475,9 @@
     "text": "Claude Code記事シリーズ、全部読むと一通りの操作ができるようになる構成にしてます。 #ClaudeCode #Zenn"
   },
   {
-    "id": 844,
-    "category": "article",
-    "text": "Webサービス構築記事では企画→設計→実装→デプロイの全工程を1記事で解説予定。\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service #Web開発"
-  },
-  {
     "id": 845,
     "category": "article",
     "text": "記事に対するフィードバックは全て読んでます。改善につなげるので遠慮なくコメントを。 #Zenn"
-  },
-  {
-    "id": 846,
-    "category": "article",
-    "text": "実践テクニック記事、書いてる途中で10選じゃ足りないことに気づいた。ボリューム増やすかも。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips #ClaudeCode"
   },
   {
     "id": 847,
@@ -3785,49 +3495,14 @@
     "text": "記事一覧がZennのプロフィールに並ぶのが嬉しい。ポートフォリオの一部にもなってる。 #Zenn"
   },
   {
-    "id": 850,
-    "category": "article",
-    "text": "デバッグ記事はシリーズ化するかも。エラー種類ごとの対処法をまとめたい。\nhttps://zenn.dev/rcn_article/articles/rc-debug-10x-faster #デバッグ"
-  },
-  {
-    "id": 851,
-    "category": "article",
-    "text": "Node.jsインストール記事、nvmの使い方も含めて解説予定。バージョン管理は大事。\nhttps://zenn.dev/rcn_article/articles/rc-nodejs-npm-install #NodeJS"
-  },
-  {
     "id": 852,
     "category": "article",
     "text": "MCP記事は実際に自分が連携してるサーバーの設定例を公開予定。リアルな内容。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
   },
   {
-    "id": 853,
-    "category": "article",
-    "text": "Plan Mode記事を書くために色々な使い方を試してる。記事のための実験が楽しい。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-plan-mode #ClaudeCode"
-  },
-  {
-    "id": 854,
-    "category": "article",
-    "text": "VS Code連携記事ではCopilotとの使い分けも解説予定。共存できるのが強い。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode #VSCode"
-  },
-  {
-    "id": 855,
-    "category": "article",
-    "text": "CLAUDE.md記事ではテンプレートも配布予定。すぐに使い始められるように。\nhttps://zenn.dev/rcn_article/articles/rc-claude-md-memory #ClaudeCode"
-  },
-  {
     "id": 856,
     "category": "article",
     "text": "Zennの記事がGoogle検索に表示されるようになってきた。SEO的にもZennは強い。 #Zenn"
-  },
-  {
-    "id": 857,
-    "category": "article",
-    "text": "スクレイピング記事では法的リスクの説明を冒頭に入れる。責任ある技術利用を推奨。\nhttps://zenn.dev/rcn_article/articles/rc-scraping-tool #スクレイピング"
-  },
-  {
-    "id": 858,
-    "category": "article",
-    "text": "データ分析記事ではCSVファイルからグラフ生成までの一連の流れを解説する予定。\nhttps://zenn.dev/rcn_article/articles/rc-data-analysis-viz #データ分析"
   },
   {
     "id": 859,
@@ -4161,16 +3836,6 @@
   },
   {
     "category": "article",
-    "text": "Claude Codeのインストール記事、動作確認までの手順を省略せず書いてます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-setup #ClaudeCode",
-    "id": 983
-  },
-  {
-    "category": "article",
-    "text": "Tips記事は随時追加予定。新しいテクニックを発見したら更新していく。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-tips #ClaudeCode",
-    "id": 984
-  },
-  {
-    "category": "article",
     "text": "CLIの記事を書いたことでClaude Code記事への導線ができた。記事同士の連携が大事。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #Zenn",
     "id": 985
   },
@@ -4178,21 +3843,6 @@
     "category": "article",
     "text": "Git入門記事はプルリクエストの作り方まで解説してます。実務で即使える内容。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git",
     "id": 986
-  },
-  {
-    "category": "article",
-    "text": "VS Code記事ではターミナル統合の設定も解説予定。IDEから離れずにCLIを使う方法。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-vscode #VSCode",
-    "id": 987
-  },
-  {
-    "category": "article",
-    "text": "ポートフォリオ記事のゴール：読者が記事を読み終えたらポートフォリオが完成していること。\nhttps://zenn.dev/rcn_article/articles/rc-portfolio-30min #ポートフォリオ",
-    "id": 988
-  },
-  {
-    "category": "article",
-    "text": "Webサービス記事は「未経験者が最短で形にする」をテーマにしてます。\nhttps://zenn.dev/rcn_article/articles/rc-zero-to-web-service #Web開発",
-    "id": 989
   },
   {
     "category": "article",
