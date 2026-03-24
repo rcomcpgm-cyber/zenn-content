@@ -3,7 +3,7 @@ title: "Claude Codeでブログ自動化システムを構築する"
 emoji: "🤖"
 type: "tech"
 topics: ["claudecode", "automation", "github", "zenn"]
-published: false
+published: true
 ---
 
 ## この記事でやること
@@ -13,7 +13,7 @@ published: false
 ## 自動化の全体像
 
 ```
-記事をClaude Codeでまとめて書き溜める（published: false）
+記事をClaude Codeでまとめて書き溜める（published: true）
     ↓
 GitHub Actions（毎日定時に実行）
     ↓
@@ -29,7 +29,7 @@ Claude Codeで記事を一気に生成します：
 ```
 Claude Codeの使い方について記事を5本書いて。
 Zennのフォーマットで、articles/ディレクトリに保存して。
-published: false で作成して。
+published: true で作成して。
 ```
 
 記事はリポジトリにあるけどZennには公開されない「ストック状態」になります。
@@ -55,7 +55,7 @@ jobs:
 
       - name: Find and publish one unpublished article
         run: |
-          FILE=$(grep -rl 'published: false' articles/ | head -1)
+          FILE=$(grep -rl 'published: true' articles/ | head -1)
 
           if [ -z "$FILE" ]; then
             echo "No unpublished articles found."
@@ -63,7 +63,7 @@ jobs:
           fi
 
           echo "Publishing: $FILE"
-          sed -i 's/published: false/published: true/' "$FILE"
+          sed -i 's/published: true/published: true/' "$FILE"
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
