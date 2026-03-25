@@ -2,8 +2,8 @@ name: Auto Like
 
 on:
   schedule:
-    # 昼 12:00 JST (UTC 03:00)
-    - cron: '0 3 * * *'
+    # 昼 12:30 JST (UTC 03:30) — 昼休み中盤
+    - cron: '30 3 * * *'
     # 夜 21:00 JST (UTC 12:00)
     - cron: '0 12 * * *'
   workflow_dispatch:
