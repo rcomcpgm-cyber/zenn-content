@@ -13,7 +13,20 @@ const twitter = new TwitterApi({
 });
 
 const LOG_FILE = path.join(__dirname, "casual-tweet-log.json");
+const HISTORY_FILE = path.join(__dirname, "tweet-history.txt");
 const INFLUENCER_FILE = path.join(__dirname, "influencer-patterns.json");
+
+function getHistory() {
+  try {
+    return fs.readFileSync(HISTORY_FILE, "utf-8").split("\n").filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
+function appendHistory(text) {
+  fs.appendFileSync(HISTORY_FILE, text + "\n");
+}
 
 function getLog() {
   try {
@@ -30,39 +43,64 @@ function saveLog(data) {
 // 時間帯ごとのトピックプール
 const TOPIC_POOLS = {
   morning: [
-    "朝のルーティン・コーヒー",
-    "朝ごはん・朝食",
     "寝坊・二度寝",
     "今日の案件・面談",
     "体調・健康（尿酸値、禁酒等）",
+    "GitHub Actionsやるか手動か迷う話",
+    "朝イチのSlack通知の量",
+    "フリーランスの確定申告・経費",
+    "VS CodeとCursor、結局どっち使うか問題",
+    "リモートワークの集中力",
+    "技術書読もうとして積んでる話",
+    "面談前の緊張・準備",
   ],
   lunch: [
-    "ランチ・昼メシ",
-    "リモートワークあるある",
     "案件・面談の愚痴",
     "フリーランスあるある",
-    "最近見たアニメ",
+    "最近見たアニメの感想",
+    "SES・業務委託の闇",
+    "コードレビューで指摘されたこと",
+    "個人開発のモチベーション",
+    "ChatGPT vs Claude 使い分け",
+    "昼寝したら午後終わってた話",
+    "エンジニアの転職市場",
+    "技術スタックの流行り廃り",
   ],
   afternoon: [
     "フリーランスの働き方・単価",
     "開発ツール・Claude Codeの話",
-    "買い物・散歩",
     "引っ越し検討",
     "友達との予定",
+    "新しいライブラリ・フレームワーク触った感想",
+    "ドキュメント書くのめんどくさい話",
+    "テスト書かずに本番出した話",
+    "案件の技術選定で揉めた話",
+    "副業・個人開発の収益化",
+    "ITコンサルの現場あるある",
   ],
   evening: [
-    "晩ごはん・外食・出前",
     "夜のコーディング・個人開発",
     "酒・家飲み・禁酒",
     "アニメ・漫画の感想",
-    "週末の予定",
+    "F1・スーパーフォーミュラの話",
+    "釣りに行きたい話",
+    "Dockerで環境壊した話",
+    "OSS見てたら夜になってた",
+    "友達と飯行った話",
+    "来月の案件どうしよう",
+    "デプロイ後のヒヤヒヤ",
   ],
   night: [
-    "深夜の酒・1人飲み",
     "深夜コーディング",
     "アニメ一気見",
     "明日の面談・案件の話",
     "寝れない・夜更かし",
+    "深夜のStack Overflow徘徊",
+    "本番障害の夢を見た",
+    "個人開発のアイデアが降ってきた",
+    "深夜テンションでリファクタ始めた",
+    "明日の自分に任せる判断",
+    "GitHubの草を見て虚無",
   ],
 };
 
@@ -122,36 +160,56 @@ async function generateAndPost() {
 - 「です・ます」の丁寧語は使わないけど、「〜かもです」くらいのゆるい敬語はOK
 
 ## テーマ
-${topic}（${timeSlot}の時間帯）
+「${topic}」についてツイートして。
+
+## 人間っぽく書くコツ
+- 途中で文が切れてもいい。全部説明しなくていい
+- 「〜なんだよな」「〜だわ」で終わる独り言。誰にも語りかけてない感じ
+- 具体的な固有名詞・数字を入れる（「3時間」「React 19」「2次面談」など）
+- たまに誤字っぽい口語（「してえ」「やべー」）を混ぜる
+- 感情は1個だけ。「嬉しい」「だるい」「やばい」どれか1つ
+- 文末のバリエーション：「〜だわ」「〜なんだが」「〜かもです」「〜してえ」「草」「〜だなー」
 
 ## 絶対に守ること
+- ツイート本文だけを出力。前置き・説明・メタ情報は一切書くな
+- 「〜のツイート：」「〜についてのツイート」のような前置きは絶対禁止
+- 「morning」「afternoon」「evening」「night」「lunch」などの時間帯ラベルを本文に含めるな
 - 140文字以内。短いほどいい。10〜50文字がベスト
 - ハッシュタグ禁止
 - 絵文字は0〜1個。なくていい
-- 薄い独り言。考察・教訓・まとめ禁止
+- 考察・教訓・まとめ禁止。オチをつけるな
 - 「でさ、〜だと思うんだよね」みたいに無理やりビジネスに繋げるの禁止
 - IT・ビジネスの話とプライベートの話を1ツイートで混ぜない
 - 宣伝禁止。リンク禁止
 - 天気の話禁止
 - クライアント・仕事の話は平日のみ。土日は趣味・個人開発の話
-- 本文だけ出力
 
-## ダメな例（禁止）
-「朝のコーヒーを飲みながら、今日の開発計画を立てています。」→ AIっぽい
-「でさ、結局AIを使いこなせる奴が勝つんだよ」→ わざとらしい考察。禁止
-「外注さんとの打ち合わせ〜でさ、空いたリソースで次のマネタイズ考える方がマジで効率いい。」→ 無理やりビジネスに転換。禁止
+## ダメな例（こういうのがAIっぽい。絶対やるな）
+「朝のコーヒーを飲みながら、今日の開発計画を立てています。」→ 丁寧語+状況説明。AIっぽすぎ
+「でさ、結局AIを使いこなせる奴が勝つんだよ」→ わざとらしい考察
+「外注さんとの打ち合わせ〜でさ、空いたリソースで次のマネタイズ考える方がマジで効率いい。」→ 無理やりビジネスに転換
+「コードレビュー、やっぱり大事だなって思った。」→ 感想文。小学生の日記
+「今日も1日頑張ろう！」→ botっぽい。人間はこんなこと書かない
+「深夜のコーディングは集中できて最高ですね。」→ 丁寧語+ポジティブまとめ。AI
 
-## いい例（この温度感。メインより少しだけ硬い）
+## いい例（この温度感で。雑で短いほどいい）
 「何食べようかなー」
 「トンカツは出前で頼むもんじゃないね」
 「1人で家飲みしてると酒が進まない」
 「面談で結構やらかしたけど通った。2次かー」
-「案件の打ち合わせ、時給換算すると地獄かもです」
-「GithubAction便利だなー」
+「時給換算すると地獄かもです」
+「GitHub Actions便利だなー」
 「フルリモートでフルフレックスらしい。行きたい」
 「禁酒3日目。尿酸値のために頑張る」
 「嘆きの亡霊、毎回特殊OPEDやってくれるからすこ」
-「アプリ公開したけどアカウント育たないと拡散できないね」
+「アカウント育たないと拡散できないね」
+「3時間溶けたけどバグの原因typoだった」
+「Dockerのイメージサイズ2GBて」
+「面談5分遅刻した。起きた時点で詰んでたわ」
+「React 19、地味に破壊的変更多いんだが」
+「確定申告まだやってない。やばい」
+「寝る前にIssue見たら寝れなくなった」
+「eslintの設定で1時間消えた」
 
 ## 最近のツイート（被り回避）
 ${recentTexts || "なし"}
@@ -163,10 +221,31 @@ ${influencerTips}`;
     messages: [{ role: "user", content: prompt }],
   });
 
-  const tweetText = response.content[0].text.trim().replace(/^[「『]|[」』]$/g, "");
+  let tweetText = response.content[0].text.trim();
+  // 「〜のツイート：\n本文」形式で返ってきた場合、前置き部分を除去
+  tweetText = tweetText.replace(/^.{0,50}(ツイート|tweet)[：:]\s*/i, "");
+  tweetText = tweetText.replace(/^[「『]|[」』]$/g, "");
 
   if (tweetText.length > 280) {
     console.log("Generated tweet too long, skipping:", tweetText);
+    return;
+  }
+
+  // 全履歴と重複チェック（完全一致 or 8割以上一致）
+  const history = getHistory();
+  const isDuplicate = history.some((past) => {
+    if (past === tweetText) return true;
+    const shorter = Math.min(past.length, tweetText.length);
+    if (shorter === 0) return false;
+    let match = 0;
+    for (let i = 0; i < shorter; i++) {
+      if (past[i] === tweetText[i]) match++;
+    }
+    return match / shorter > 0.8;
+  });
+
+  if (isDuplicate) {
+    console.log("Duplicate tweet detected, skipping:", tweetText);
     return;
   }
 
@@ -175,6 +254,9 @@ ${influencerTips}`;
 
   const { data } = await twitter.v2.tweet(tweetText);
   console.log(`Posted: https://x.com/adlei_builds/status/${data.id}`);
+
+  // 全履歴に追記（重複防止用、削除しない）
+  appendHistory(tweetText);
 
   log.tweets.push({
     id: data.id,
