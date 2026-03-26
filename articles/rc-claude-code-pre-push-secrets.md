@@ -3,6 +3,7 @@ title: "Claude Codeでpre-pushフックを作る｜APIキー漏洩を防ぐ自�
 emoji: "🔐"
 type: "tech"
 topics: ["claudecode", "git", "security", "devtools"]
+publish_order: 14
 published: false
 ---
 

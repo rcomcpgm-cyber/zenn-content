@@ -25,8 +25,14 @@ jobs:
       - name: Find and publish one unpublished article
         id: publish
         run: |
-          # 未公開記事を1つ見つけてpublishedをtrueに変更
-          FILE=$(grep -rl 'published: false' articles/ | head -1)
+          # 未公開記事をpublish_order順で1つ見つけてpublishedをtrueに変更
+          # publish_orderがある記事を番号順に、ない記事はその後にファイル名順で処理
+          FILE=$(for f in articles/*.md; do
+            if grep -q 'published: false' "$f"; then
+              order=$(grep 'publish_order:' "$f" | sed 's/[^0-9]//g')
+              echo "${order:-9999} $f"
+            fi
+          done | sort -n | head -1 | cut -d' ' -f2)
 
           if [ -z "$FILE" ]; then
             echo "No unpublished articles found."

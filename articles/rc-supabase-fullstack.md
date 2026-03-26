@@ -3,6 +3,7 @@ title: "Claude Code × Supabaseでフルスタックアプリを作る方法｜�
 emoji: "⚡"
 type: "tech"
 topics: ["claudecode", "supabase", "nextjs", "fullstack"]
+publish_order: 11
 published: false
 ---
 

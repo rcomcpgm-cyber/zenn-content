@@ -3,6 +3,7 @@ title: "VS CodeでClaude Codeを使う方法｜統合開発環境の構築ガイ
 emoji: "🛠"
 type: "tech"
 topics: ["claudecode", "vscode", "ide", "devtools"]
+publish_order: 3
 published: false
 ---
 

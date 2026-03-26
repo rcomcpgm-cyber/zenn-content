@@ -3,6 +3,7 @@ title: "Claude Codeでchrome拡張機能を作る【初めてでもOK】"
 emoji: "🧩"
 type: "tech"
 topics: ["claudecode", "chrome", "javascript", "webdev"]
+publish_order: 6
 published: false
 ---
 

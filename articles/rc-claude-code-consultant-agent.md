@@ -3,6 +3,7 @@ title: "Claude Codeでコンサルタントを呼ぶ方法｜エージェント�
 emoji: "💼"
 type: "tech"
 topics: ["claudecode", "ai", "consulting", "startup"]
+publish_order: 15
 published: false
 ---
 

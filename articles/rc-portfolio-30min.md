@@ -3,6 +3,7 @@ title: "Claude Codeでポートフォリオサイトを30分で作る方法｜Re
 emoji: "🎨"
 type: "tech"
 topics: ["claudecode", "react", "portfolio", "tailwindcss"]
+publish_order: 8
 published: false
 ---
 
