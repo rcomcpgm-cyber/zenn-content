@@ -9,22 +9,27 @@ const path = require("path");
 
 // レシピDBをインラインで定義（kondate/src/data/recipes.tsから主要データのみ抽出）
 const RECIPES = [
-  { name: "鶏の照り焼き", genre: "和食", calories: 350, time: 20, rarity: "N" },
-  { name: "豚の生姜焼き", genre: "和食", calories: 380, time: 15, rarity: "N" },
-  { name: "味噌汁", genre: "和食", calories: 60, time: 10, rarity: "N" },
-  { name: "和風ハンバーグ", genre: "和食", calories: 420, time: 30, rarity: "R" },
-  { name: "麻婆豆腐", genre: "中華", calories: 280, time: 20, rarity: "R" },
-  { name: "エビチリ", genre: "中華", calories: 250, time: 20, rarity: "SR" },
-  { name: "カルボナーラ", genre: "洋食", calories: 550, time: 20, rarity: "R" },
-  { name: "チキン南蛮", genre: "和食", calories: 480, time: 30, rarity: "R" },
-  { name: "回鍋肉", genre: "中華", calories: 320, time: 15, rarity: "N" },
-  { name: "肉じゃが", genre: "和食", calories: 280, time: 30, rarity: "N" },
-  { name: "餃子", genre: "中華", calories: 300, time: 40, rarity: "R" },
-  { name: "ビーフシチュー", genre: "洋食", calories: 450, time: 60, rarity: "SR" },
-  { name: "鯖の味噌煮", genre: "和食", calories: 280, time: 25, rarity: "R" },
-  { name: "グリーンカレー", genre: "エスニック", calories: 400, time: 25, rarity: "SR" },
-  { name: "ローストビーフ", genre: "洋食", calories: 380, time: 90, rarity: "SR" },
-  { name: "フォアグラ丼", genre: "フレンチ", calories: 520, time: 15, rarity: "SSR" },
+  // meal: "both"=昼夜両方, "lunch"=昼向き, "dinner"=夜向き
+  { name: "鶏の照り焼き", genre: "和食", calories: 350, time: 20, rarity: "N", meal: "both" },
+  { name: "豚の生姜焼き", genre: "和食", calories: 380, time: 15, rarity: "N", meal: "both" },
+  { name: "和風ハンバーグ", genre: "和食", calories: 420, time: 30, rarity: "R", meal: "dinner" },
+  { name: "麻婆豆腐", genre: "中華", calories: 280, time: 20, rarity: "R", meal: "both" },
+  { name: "エビチリ", genre: "中華", calories: 250, time: 20, rarity: "SR", meal: "dinner" },
+  { name: "カルボナーラ", genre: "洋食", calories: 550, time: 20, rarity: "R", meal: "lunch" },
+  { name: "チキン南蛮", genre: "和食", calories: 480, time: 30, rarity: "R", meal: "lunch" },
+  { name: "回鍋肉", genre: "中華", calories: 320, time: 15, rarity: "N", meal: "both" },
+  { name: "肉じゃが", genre: "和食", calories: 280, time: 30, rarity: "N", meal: "dinner" },
+  { name: "餃子", genre: "中華", calories: 300, time: 40, rarity: "R", meal: "dinner" },
+  { name: "ビーフシチュー", genre: "洋食", calories: 450, time: 60, rarity: "SR", meal: "dinner" },
+  { name: "鯖の味噌煮", genre: "和食", calories: 280, time: 25, rarity: "R", meal: "dinner" },
+  { name: "グリーンカレー", genre: "エスニック", calories: 400, time: 25, rarity: "SR", meal: "both" },
+  { name: "ローストビーフ", genre: "洋食", calories: 380, time: 90, rarity: "SR", meal: "dinner" },
+  { name: "フォアグラ丼", genre: "フレンチ", calories: 520, time: 15, rarity: "SSR", meal: "dinner" },
+  { name: "親子丼", genre: "和食", calories: 450, time: 15, rarity: "N", meal: "lunch" },
+  { name: "ナポリタン", genre: "洋食", calories: 500, time: 15, rarity: "N", meal: "lunch" },
+  { name: "牛丼", genre: "和食", calories: 480, time: 15, rarity: "N", meal: "lunch" },
+  { name: "チャーハン", genre: "中華", calories: 450, time: 10, rarity: "N", meal: "lunch" },
+  { name: "海鮮丼", genre: "和食", calories: 400, time: 10, rarity: "SR", meal: "lunch" },
 ];
 
 // 副菜リスト（ランダム選択用）
@@ -74,6 +79,12 @@ function pickWeighted(arr) {
   return filtered.length > 0 ? pick(filtered) : pick(arr);
 }
 
+// JST時刻を取得して昼/夜を判定
+function getMealTime() {
+  const jstHour = new Date().getUTCHours() + 9;
+  return jstHour < 15 ? "lunch" : "dinner";
+}
+
 // ツイート履歴の重複回避
 const LOG_FILE = path.join(__dirname, "kondate-tweet-log.json");
 function loadLog() {
@@ -85,19 +96,24 @@ function saveLog(log) {
 }
 
 async function main() {
-  const main = pickWeighted(RECIPES);
+  const mealTime = getMealTime();
+  const mealLabel = mealTime === "lunch" ? "ランチ" : "晩ごはん";
+
+  // 時間帯に合ったレシピをフィルタリング
+  const mealRecipes = RECIPES.filter((r) => r.meal === mealTime || r.meal === "both");
+  const main = pickWeighted(mealRecipes);
   const side = pickWeighted(SIDES);
   const soup = pickWeighted(SOUPS);
 
   const totalCalories = main.calories + side.calories + soup.calories;
-  const totalTime = main.time + 10; // 副菜・汁物は並行調理想定
+  const totalTime = main.time + 10;
 
   const hasSSR = [main, side, soup].some((r) => r.rarity === "SSR");
   const hasSR = [main, side, soup].some((r) => r.rarity === "SR");
 
-  let header = "🎰 今日の献立ガチャ結果！";
-  if (hasSSR) header = "🎉 SSR降臨！！今日の献立ガチャ結果！";
-  else if (hasSR) header = "✨ SR出た！今日の献立ガチャ結果！";
+  let header = `🎰 今日の${mealLabel}ガチャ結果！`;
+  if (hasSSR) header = `🎉 SSR降臨！！今日の${mealLabel}ガチャ！`;
+  else if (hasSR) header = `✨ SR出た！今日の${mealLabel}ガチャ！`;
 
   const tweet = `${header}
 
