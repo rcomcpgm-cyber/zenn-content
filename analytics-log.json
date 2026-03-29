@@ -52,6 +52,64 @@
           "date": "2026-03-20T08:41:09.000Z"
         }
       ]
+    },
+    {
+      "date": "2026-03-29T06:01:45.065Z",
+      "profile": {
+        "followers": 7,
+        "following": 143,
+        "totalTweets": 94
+      },
+      "last50Tweets": {
+        "totalLikes": 2,
+        "totalRetweets": 1,
+        "totalImpressions": 116,
+        "avgLikes": "0.0",
+        "avgImpressions": "2.3",
+        "tweetCount": 50
+      },
+      "topTweets": [
+        {
+          "text": "Claude死んで作業進まないって奴、マジでそれだわ。結局、AIに依存してる奴ほど止まった時のダメージデカいんやん。多重化しとけよって思うわ。",
+          "likes": 1,
+          "retweets": 0,
+          "impressions": 15,
+          "date": "2026-03-27T07:45:51.000Z"
+        },
+        {
+          "text": "ClaudeCode君が死んでしまった!!! https://t.co/RDsdXvASPU",
+          "likes": 1,
+          "retweets": 0,
+          "impressions": 7,
+          "date": "2026-03-26T17:17:36.000Z"
+        },
+        {
+          "text": "Local Friendの通知、予約確定とリマインドとレビュー依頼の3パターン用意してるんだが、それぞれテンプレート分けるのが地味に大事かもです",
+          "likes": 0,
+          "retweets": 0,
+          "impressions": 3,
+          "date": "2026-03-28T14:54:36.000Z"
+        },
+        {
+          "text": "深夜4時のコーディング、あと30分で寝るつもりが気づいたら朝になってるやつ。時間感覚完全にバグってるんだが",
+          "likes": 0,
+          "retweets": 0,
+          "impressions": 1,
+          "date": "2026-03-28T14:06:40.000Z"
+        },
+        {
+          "text": "Claude Codeのキーボード自作の奴、マジで面白いな。でも市場出す前に自分で1年使い込んでからにしろよ。AIツール周りって想定外がドンドン出てくんだからさ",
+          "likes": 0,
+          "retweets": 0,
+          "impressions": 1,
+          "date": "2026-03-28T11:59:51.000Z"
+        }
+      ],
+      "growth": {
+        "followers": 5,
+        "followersPercent": "250.0",
+        "impressionChange": 107
+      }
     }
   ]
 }
