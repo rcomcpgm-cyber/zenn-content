@@ -1063,6 +1063,86 @@
       "followers": 426,
       "followedAt": "2026-03-30T08:59:27.177Z",
       "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1245356148951150592",
+      "username": "haratcha_KS",
+      "name": "鈴木圭介｜業務ツール作ります",
+      "followers": 857,
+      "followedAt": "2026-03-30T15:56:08.548Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1904001243233894400",
+      "username": "pokota_eng",
+      "name": "ぽこた@元SIerエンジニア | 若手・未経験者向け情報発信中",
+      "followers": 406,
+      "followedAt": "2026-03-30T15:56:21.173Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1792422147144798208",
+      "username": "toka_blogsespe",
+      "name": "とか＿apps＋α^10",
+      "followers": 2837,
+      "followedAt": "2026-03-30T15:56:33.732Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1632282983850991616",
+      "username": "Leo1113245",
+      "name": "A.R.t. 雨黎 @Personal Developer & Art",
+      "followers": 879,
+      "followedAt": "2026-03-30T15:56:46.456Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "2014637869332365315",
+      "username": "eleshaproduct",
+      "name": "えれしゃ｜ADHDでアイデア止まらない",
+      "followers": 371,
+      "followedAt": "2026-03-30T15:56:59.206Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "2025023082600267776",
+      "username": "app_develo1024",
+      "name": "夫婦でiOSアプリ開発",
+      "followers": 244,
+      "followedAt": "2026-03-30T15:57:11.944Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "2021884273083678720",
+      "username": "kouAI_work",
+      "name": "コウ",
+      "followers": 174,
+      "followedAt": "2026-03-30T15:57:24.626Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1968647853171216384",
+      "username": "meta_asahi",
+      "name": "メタあさひ",
+      "followers": 132,
+      "followedAt": "2026-03-30T15:57:37.291Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "2023987654661206018",
+      "username": "bensuke_2",
+      "name": "こここ@iOS個人開発",
+      "followers": 322,
+      "followedAt": "2026-03-30T15:57:49.956Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1982775480303640576",
+      "username": "karou2rikon",
+      "name": "過労",
+      "followers": 3703,
+      "followedAt": "2026-03-30T15:58:02.423Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
