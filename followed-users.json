@@ -1223,6 +1223,86 @@
       "followers": 2092,
       "followedAt": "2026-03-31T07:56:28.337Z",
       "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "923369878525902848",
+      "username": "takaram71",
+      "name": "takaram",
+      "followers": 211,
+      "followedAt": "2026-03-31T15:53:11.927Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "939905661906780160",
+      "username": "yubele",
+      "name": "あべちゃん | テキストでスライド slidict.io 個人開発",
+      "followers": 293,
+      "followedAt": "2026-03-31T15:53:24.781Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1969572843936759809",
+      "username": "shinano_suzuki",
+      "name": "インベスターS",
+      "followers": 269,
+      "followedAt": "2026-03-31T15:53:37.585Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1507355263560421384",
+      "username": "jugesuke",
+      "name": "Jugesuke",
+      "followers": 1666,
+      "followedAt": "2026-03-31T15:53:50.271Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "873189250035994624",
+      "username": "blankrfill",
+      "name": "Masaki Ono",
+      "followers": 455,
+      "followedAt": "2026-03-31T15:54:03.031Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1318149549546860545",
+      "username": "derAnfang2021",
+      "name": "レイ＠VBAer",
+      "followers": 2708,
+      "followedAt": "2026-03-31T15:54:15.795Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1452895326012989441",
+      "username": "hacksHub_jp",
+      "name": "hacksHub（ハックスハブ）│ エンジニアと案件のマッチングをサポートするプラットフォーム",
+      "followers": 557,
+      "followedAt": "2026-03-31T15:54:28.566Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1957612047736401920",
+      "username": "SKET_inc",
+      "name": "えん_SKET",
+      "followers": 653,
+      "followedAt": "2026-03-31T15:54:41.316Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "118731751",
+      "username": "umireon",
+      "name": "うみれおん（Kaito Udagawa）",
+      "followers": 1069,
+      "followedAt": "2026-03-31T15:54:54.056Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "14555417",
+      "username": "tsucchi",
+      "name": "tsucchi",
+      "followers": 719,
+      "followedAt": "2026-03-31T15:55:06.789Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
