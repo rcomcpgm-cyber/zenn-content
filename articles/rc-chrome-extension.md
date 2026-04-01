@@ -4,7 +4,7 @@ emoji: "🧩"
 type: "tech"
 topics: ["claudecode", "chrome", "javascript", "webdev"]
 publish_order: 6
-published: false
+published: true
 ---
 
 ## この記事でやること
