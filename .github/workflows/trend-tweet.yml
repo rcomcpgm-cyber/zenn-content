@@ -2,10 +2,10 @@ name: Trend Tweet
 
 on:
   schedule:
-    # 毎日 13:00 JST (UTC 04:00) — 昼の話題を拾う
-    - cron: '0 4 * * *'
-    # 毎日 20:30 JST (UTC 11:30) — 夜の話題を拾う
-    - cron: '30 11 * * *'
+    # 毎日 13:03 JST (UTC 04:03) — 昼の話題を拾う
+    - cron: '3 4 * * *'
+    # 毎日 20:37 JST (UTC 11:37) — 夜の話題を拾う
+    - cron: '37 11 * * *'
   workflow_dispatch:
 
 permissions:

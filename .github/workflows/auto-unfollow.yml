@@ -2,8 +2,8 @@ name: Auto Unfollow
 
 on:
   schedule:
-    # 毎日 15:00 JST (UTC 06:00)
-    - cron: '0 6 * * *'
+    # 毎日 15:11 JST (UTC 06:11)
+    - cron: '11 6 * * *'
   workflow_dispatch:
 
 permissions:

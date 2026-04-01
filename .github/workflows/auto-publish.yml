@@ -2,8 +2,8 @@ name: Auto Publish Articles
 
 on:
   schedule:
-    # 毎日日本時間10:00（UTC 01:00）に実行
-    - cron: '0 1 * * *'
+    # 毎日日本時間10:03（UTC 01:03）に実行
+    - cron: '3 1 * * *'
   workflow_dispatch: # 手動実行も可能
 
 permissions:

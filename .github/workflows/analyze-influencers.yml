@@ -2,8 +2,8 @@ name: Analyze Influencers
 
 on:
   schedule:
-    # 毎週月曜 10:00 JST (UTC 01:00)
-    - cron: '0 1 * * 1'
+    # 毎週月曜 10:17 JST (UTC 01:17)
+    - cron: '17 1 * * 1'
   workflow_dispatch:
 
 permissions:

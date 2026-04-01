@@ -2,12 +2,12 @@ name: Casual Tweets
 
 on:
   schedule:
-    # 昼 12:00 JST (UTC 03:00) — 昼休み開始
-    - cron: '0 3 * * *'
-    # 夜 19:30 JST (UTC 10:30) — 帰宅時間帯
-    - cron: '30 10 * * *'
-    # 夜 21:30 JST (UTC 12:30) — ゴールデンタイム
-    - cron: '30 12 * * *'
+    # 昼 12:07 JST (UTC 03:07) — 昼休み開始
+    - cron: '7 3 * * *'
+    # 夜 19:37 JST (UTC 10:37) — 帰宅時間帯
+    - cron: '37 10 * * *'
+    # 夜 21:43 JST (UTC 12:43) — ゴールデンタイム
+    - cron: '43 12 * * *'
   workflow_dispatch:
 
 permissions:

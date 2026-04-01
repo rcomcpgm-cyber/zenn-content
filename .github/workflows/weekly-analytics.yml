@@ -2,8 +2,8 @@ name: Weekly Analytics
 
 on:
   schedule:
-    # 毎週日曜 10:00 JST (UTC 01:00)
-    - cron: '0 1 * * 0'
+    # 毎週日曜 10:23 JST (UTC 01:23)
+    - cron: '23 1 * * 0'
   workflow_dispatch:
 
 permissions:

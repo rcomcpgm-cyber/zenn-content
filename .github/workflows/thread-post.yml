@@ -2,8 +2,8 @@ name: Thread Post
 
 on:
   schedule:
-    # 水曜・土曜 20:00 JST (UTC 11:00)
-    - cron: '0 11 * * 3,6'
+    # 水曜・土曜 20:13 JST (UTC 11:13)
+    - cron: '13 11 * * 3,6'
   workflow_dispatch:
 
 permissions:

@@ -2,12 +2,12 @@ name: Scheduled Tweets
 
 on:
   schedule:
-    # 昼 12:15 JST (UTC 03:15) — 昼休み
-    - cron: '15 3 * * *'
-    # 夜 19:00 JST (UTC 10:00) — 帰宅〜夕食
-    - cron: '0 10 * * *'
-    # 夜 22:00 JST (UTC 13:00) — 寝る前
-    - cron: '0 13 * * *'
+    # 昼 12:23 JST (UTC 03:23) — 昼休み
+    - cron: '23 3 * * *'
+    # 夜 19:13 JST (UTC 10:13) — 帰宅〜夕食
+    - cron: '13 10 * * *'
+    # 夜 22:07 JST (UTC 13:07) — 寝る前
+    - cron: '7 13 * * *'
   workflow_dispatch:
     inputs:
       category:
