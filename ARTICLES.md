@@ -13,6 +13,12 @@
 | 7 | [Claude CodeがCLIである理由｜チャットUIよりCLIが優れている5つのポイント](articles/rc-cli-better-than-ui-reasons.md) | コラム |
 | 8 | [Claude Codeでスマホアプリを作る方法｜Expo（React Native）入門](articles/rc-expo-mobile-app.md) | 実践 |
 | 9 | [Claude Codeでブログ自動化システムを構築する](articles/rc-blog-automation.md) | 実践 |
+| 10 | [Node.jsとnpmのインストール方法｜Windows/Mac対応【2025年最新】](articles/rc-nodejs-npm-install.md) | 入門 |
+| 11 | [CLAUDE.mdの書き方ガイド｜AIに記憶を持たせて生産性を上げる方法](articles/rc-claude-md-memory.md) | 入門 |
+| 12 | [VS CodeでClaude Codeを使う方法｜統合開発環境の構築ガイド](articles/rc-claude-code-vscode.md) | 入門 |
+| 13 | [Claude Code実践テクニック10選｜現役エンジニアが教える効率化Tips](articles/rc-claude-code-tips.md) | 中級 |
+| 14 | [Claude Codeでバグ修正を10倍速にする方法｜エラー解決の実践テクニック](articles/rc-debug-10x-faster.md) | 中級 |
+| 15 | [Claude Codeでchrome拡張機能を作る【初めてでもOK】](articles/rc-chrome-extension.md) | 実践 |
 
 ---
 
@@ -20,13 +26,7 @@
 
 | 公開順 | タイトル | カテゴリ |
 |--------|---------|---------|
-| 1 | [Node.jsとnpmのインストール方法｜Windows/Mac対応【2025年最新】](articles/rc-nodejs-npm-install.md) | 入門 |
-| 2 | [CLAUDE.mdの書き方ガイド｜AIに記憶を持たせて生産性を上げる方法](articles/rc-claude-md-memory.md) | 入門 |
-| 3 | [VS CodeでClaude Codeを使う方法｜統合開発環境の構築ガイド](articles/rc-claude-code-vscode.md) | 入門 |
-| 4 | [Claude Code実践テクニック10選｜現役エンジニアが教える効率化Tips](articles/rc-claude-code-tips.md) | 中級 |
-| 5 | [Claude Codeでバグ修正を10倍速にする方法｜エラー解決の実践テクニック](articles/rc-debug-10x-faster.md) | 中級 |
-| 6 | [Claude Codeでchrome拡張機能を作る【初めてでもOK】](articles/rc-chrome-extension.md) | 実践 |
-| 7 | [Claude Codeで副業用LPを爆速で作る方法](articles/rc-landing-page-fast.md) | 実践 |
+| 7 | [Claude Codeで退去費用チェッカーを作った話｜国交省ガイドライン×Stripe決済の実装記録](articles/rc-taikyocheck-release.md) | プロジェクト |
 | 8 | [Claude Codeでポートフォリオサイトを30分で作る方法｜React+Tailwind](articles/rc-portfolio-30min.md) | 実践 |
 | 9 | [Claude CodeでWebスクレイピングツールを作る方法｜Node.js実用例](articles/rc-scraping-tool.md) | 実践 |
 | 10 | [Claude Codeでデータ分析・グラフ作成を自動化する方法｜Python/Node.js](articles/rc-data-analysis-viz.md) | 実践 |
