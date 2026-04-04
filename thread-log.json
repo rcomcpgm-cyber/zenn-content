@@ -34,6 +34,13 @@
       "tweetCount": 5,
       "firstTweetId": "2039355990848438698",
       "postedAt": "2026-04-01T14:55:41.109Z"
+    },
+    {
+      "file": "rc-blog-automation.md",
+      "title": "Claude Codeでブログ自動化システムを構築する",
+      "tweetCount": 6,
+      "firstTweetId": "2040398545736302648",
+      "postedAt": "2026-04-04T11:58:26.908Z"
     }
   ]
 }
