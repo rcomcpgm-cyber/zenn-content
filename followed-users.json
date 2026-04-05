@@ -1807,6 +1807,70 @@
       "followers": 651,
       "followedAt": "2026-04-04T14:09:02.454Z",
       "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1076812589760360448",
+      "username": "tuna_caffeine",
+      "name": "ツナかふぇ@フリーランス8年目/エンジニア14年目",
+      "followers": 526,
+      "followedAt": "2026-04-05T07:38:44.684Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "965600375192535040",
+      "username": "takamura_tif",
+      "name": "髙村零",
+      "followers": 1338,
+      "followedAt": "2026-04-05T07:38:57.459Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "1088212035538579457",
+      "username": "swapp_horse",
+      "name": "ねるGPT👨‍💻@WEBプログラマー＆米国株サイト運用中",
+      "followers": 3495,
+      "followedAt": "2026-04-05T07:39:10.133Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "1867691453818056708",
+      "username": "pastelexcel",
+      "name": "ぱすてる(関数,VBA) As Excel",
+      "followers": 809,
+      "followedAt": "2026-04-05T07:39:22.912Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "17886492",
+      "username": "kai0707",
+      "name": "松村稔@プロ牛乳石鹸",
+      "followers": 2032,
+      "followedAt": "2026-04-05T07:39:35.549Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "1513387075306856449",
+      "username": "kimi_hashimoto",
+      "name": "Kimiaki Hashimoto AI x Data",
+      "followers": 201,
+      "followedAt": "2026-04-05T07:39:48.223Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "14457608",
+      "username": "read_me",
+      "name": "マサオジャンプ",
+      "followers": 584,
+      "followedAt": "2026-04-05T07:40:11.492Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "1256261651017293830",
+      "username": "yutafuru",
+      "name": "ゆたろ",
+      "followers": 2745,
+      "followedAt": "2026-04-05T07:40:24.129Z",
+      "query": "AI コーディング lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
